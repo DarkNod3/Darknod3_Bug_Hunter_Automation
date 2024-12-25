@@ -1,0 +1,71 @@
+
+Starting Dork Enumeration for zomato.com...
+
+Querying: site:zomato.com inurl:'login.html' intext:'Admin Login'
+
+Results for "site:zomato.com inurl:'login.html' intext:'Admin Login'":
+No results found or search blocked.
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'login.php' intext:'User Login'
+
+Results for "site:zomato.com inurl:'login.php' intext:'User Login'":
+No results found or search blocked.
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'signin.php' intext:'Sign In'
+
+Results for "site:zomato.com inurl:'signin.php' intext:'Sign In'":
+No results found or search blocked.
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'auth.php' intext:'Authentication Required'
+
+Results for "site:zomato.com inurl:'auth.php' intext:'Authentication Required'":
+No results found or search blocked.
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'db.sql' intext:'Database Dump'
+
+Results for "site:zomato.com inurl:'db.sql' intext:'Database Dump'":
+https://duckduckgo.com/
+https://duckduckgo.com/
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'ftp' intext:'FTP Credentials'
+
+Results for "site:zomato.com inurl:'ftp' intext:'FTP Credentials'":
+https://duckduckgo.com/
+https://duckduckgo.com/
+
+----------------------------------------------------
+
+Querying: site:zomato.com inurl:'phpinfo.php' intext:'PHP Version'
+
+Results for "site:zomato.com inurl:'phpinfo.php' intext:'PHP Version'":
+https://duckduckgo.com/
+https://duckduckgo.com/
+
+----------------------------------------------------
+
+Querying: site:zomato.com intext:'error log' inurl:'error.log'
+
+Results for "site:zomato.com intext:'error log' inurl:'error.log'":
+https://duckduckgo.com/
+https://duckduckgo.com/
+
+----------------------------------------------------
+
+Querying: site:zomato.com filetype:conf inurl:config
+
+Results for "site:zomato.com filetype:conf inurl:config":
+https://duckduckgo.com/
+https://duckduckgo.com/
+
+----------------------------------------------------
+

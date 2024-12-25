@@ -1,0 +1,1400 @@
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:"Index+of"
+| 1    | site:zomato.com intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Parent+Directory"
+| 2    | site:zomato.com OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Directory+Listing"
+| 3    | site:zomato.com OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:zomato.com filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:zomato.com%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwjBorW80OqJAxVLq5UCHfqcJWYQiaAMCAkoBA&amp;usg=AOvVaw0LMP8I4E5YMZeMp4ShwgU0">Maps</a> https://www.zomato.com/pune&amp;sa=U&amp;ved=2ahUKEwjBorW80OqJAxVLq5UCHfqcJWYQFnoECAUQAg&amp;usg=AOvVaw2WA0d0WZ3WXfJ53gxQu9Tb" https://www.zomato.com/zomaland&amp;sa=U&amp;ved=2ahUKEwjBorW80OqJAxVLq5UCHfqcJWYQFnoECA0QAg&amp;usg=AOvVaw2XdVZzFhNvOPXU04J9jOkW"  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/admin"
+| 5    | site:zomato.com intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/login"
+| 6    | site:zomato.com intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/config"
+| 7    | site:zomato.com intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/backup"
+| 8    | site:zomato.com intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Error+establishing+a+database+connection"
+| 9    | site:zomato.com intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Welcome+to+WordPress"
+| 10   | site:zomato.com intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+JIRA"
+| 11   | site:zomato.com intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+Trello"
+| 12   | site:zomato.com intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_KEY"
+| 13   | site:zomato.com intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_SECRET"
+| 14   | site:zomato.com intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"SECRET_KEY"
+| 15   | site:zomato.com intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASSWORD"
+| 16   | site:zomato.com intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASS"
+| 17   | site:zomato.com intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ACCESS_TOKEN"
+| 18   | site:zomato.com intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"AUTH_TOKEN"
+| 19   | site:zomato.com intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:".env"
+| 20   | site:zomato.com intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"environment"
+| 21   | site:zomato.com intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.php"
+| 22   | site:zomato.com intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"web.config"
+| 23   | site:zomato.com intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"appsettings.json"
+| 24   | site:zomato.com intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"application.properties"
+| 25   | site:zomato.com intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"db_conn.php"
+| 26   | site:zomato.com intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"database.php"
+| 27   | site:zomato.com intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"settings.py"
+| 28   | site:zomato.com intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secrets.yml"
+| 29   | site:zomato.com intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"connectionStrings.config"
+| 30   | site:zomato.com intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"app.config"
+| 31   | site:zomato.com intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.xml"
+| 32   | site:zomato.com intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"password"
+| 33   | site:zomato.com intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"username"
+| 34   | site:zomato.com intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"apikey"
+| 35   | site:zomato.com intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_key"
+| 36   | site:zomato.com intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_secret"
+| 37   | site:zomato.com intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"credentials"
+| 38   | site:zomato.com intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ftp"
+| 39   | site:zomato.com intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ssh"
+| 40   | site:zomato.com intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"private+key"
+| 41   | site:zomato.com intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"certificate"
+| 42   | site:zomato.com intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"login"
+| 43   | site:zomato.com intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secret"
+| 44   | site:zomato.com intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Apache"
+| 45   | site:zomato.com intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Microsoft-IIS"
+| 46   | site:zomato.com intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+nginx"
+| 47   | site:zomato.com intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+PHP"
+| 48   | site:zomato.com intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+ASP.NET"
+| 49   | site:zomato.com intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+JBoss"
+| 50   | site:zomato.com intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:"Index+of"
+| 1    | site:zomato.com intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Parent+Directory"
+| 2    | site:zomato.com OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Directory+Listing"
+| 3    | site:zomato.com OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:zomato.com filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:zomato.com%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwjXw5vi0OqJAxXSppUCHXTwOGIQiaAMCAkoBA&amp;usg=AOvVaw2zcSLbJbVyjCkurF8qc2tX">Maps</a> https://www.zomato.com/pune&amp;sa=U&amp;ved=2ahUKEwjXw5vi0OqJAxXSppUCHXTwOGIQFnoECAkQAg&amp;usg=AOvVaw3xVusy0FLOLYDoryMtTJpp" https://www.zomato.com/zomaland&amp;sa=U&amp;ved=2ahUKEwjXw5vi0OqJAxXSppUCHXTwOGIQFnoECA0QAg&amp;usg=AOvVaw2LUxnRmmBTGTtDtdgXPPbr"  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/admin"
+| 5    | site:zomato.com intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/login"
+| 6    | site:zomato.com intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/config"
+| 7    | site:zomato.com intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/backup"
+| 8    | site:zomato.com intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Error+establishing+a+database+connection"
+| 9    | site:zomato.com intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Welcome+to+WordPress"
+| 10   | site:zomato.com intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+JIRA"
+| 11   | site:zomato.com intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+Trello"
+| 12   | site:zomato.com intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_KEY"
+| 13   | site:zomato.com intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_SECRET"
+| 14   | site:zomato.com intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"SECRET_KEY"
+| 15   | site:zomato.com intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASSWORD"
+| 16   | site:zomato.com intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASS"
+| 17   | site:zomato.com intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ACCESS_TOKEN"
+| 18   | site:zomato.com intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"AUTH_TOKEN"
+| 19   | site:zomato.com intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:".env"
+| 20   | site:zomato.com intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"environment"
+| 21   | site:zomato.com intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.php"
+| 22   | site:zomato.com intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"web.config"
+| 23   | site:zomato.com intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"appsettings.json"
+| 24   | site:zomato.com intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"application.properties"
+| 25   | site:zomato.com intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"db_conn.php"
+| 26   | site:zomato.com intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"database.php"
+| 27   | site:zomato.com intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"settings.py"
+| 28   | site:zomato.com intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secrets.yml"
+| 29   | site:zomato.com intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"connectionStrings.config"
+| 30   | site:zomato.com intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"app.config"
+| 31   | site:zomato.com intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.xml"
+| 32   | site:zomato.com intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"password"
+| 33   | site:zomato.com intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"username"
+| 34   | site:zomato.com intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"apikey"
+| 35   | site:zomato.com intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_key"
+| 36   | site:zomato.com intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_secret"
+| 37   | site:zomato.com intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"credentials"
+| 38   | site:zomato.com intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ftp"
+| 39   | site:zomato.com intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ssh"
+| 40   | site:zomato.com intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"private+key"
+| 41   | site:zomato.com intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"certificate"
+| 42   | site:zomato.com intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"login"
+| 43   | site:zomato.com intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secret"
+| 44   | site:zomato.com intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Apache"
+| 45   | site:zomato.com intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Microsoft-IIS"
+| 46   | site:zomato.com intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+nginx"
+| 47   | site:zomato.com intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+PHP"
+| 48   | site:zomato.com intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+ASP.NET"
+| 49   | site:zomato.com intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+JBoss"
+| 50   | site:zomato.com intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intitle:"Index+of"
+| 1    | site:sarkarimantra.in intitle:"Index of"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+OR+intitle:"Parent+Directory"
+| 2    | site:sarkarimantra.in OR intitle:"Parent Directory" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+OR+intitle:"Directory+Listing"
+| 3    | site:sarkarimantra.in OR intitle:"Directory Listing" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:sarkarimantra.in filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:sarkarimantra.in%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwiVz6zC0eqJAxWnSmwGHVPEJ6YQiaAMCAkoBA&amp;usg=AOvVaw2JMJPl8LGTEpft4Kif6I7W">Maps</a> https://sarkarimantra.in/robots.txt&amp;sa=U&amp;ved=2ahUKEwiVz6zC0eqJAxWnSmwGHVPEJ6YQFnoECAQQAg&amp;usg=AOvVaw3QDhOaDPE8mwEzWdLlRNnl" https://sarkarimantra.in/robots.txt</div></h3></div><div  |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Index+of+/admin"
+| 5    | site:sarkarimantra.in intext:"Index of /admin"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Index+of+/login"
+| 6    | site:sarkarimantra.in intext:"Index of /login"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Index+of+/config"
+| 7    | site:sarkarimantra.in intext:"Index of /config"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Index+of+/backup"
+| 8    | site:sarkarimantra.in intext:"Index of /backup"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Error+establishing+a+database+connection"
+| 9    | site:sarkarimantra.in intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Welcome+to+WordPress"
+| 10   | site:sarkarimantra.in intext:"Welcome to WordPress" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"powered+by+JIRA"
+| 11   | site:sarkarimantra.in intext:"powered by JIRA"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"powered+by+Trello"
+| 12   | site:sarkarimantra.in intext:"powered by Trello"   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"API_KEY"
+| 13   | site:sarkarimantra.in intext:"API_KEY"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"API_SECRET"
+| 14   | site:sarkarimantra.in intext:"API_SECRET"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"SECRET_KEY"
+| 15   | site:sarkarimantra.in intext:"SECRET_KEY"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"DB_PASSWORD"
+| 16   | site:sarkarimantra.in intext:"DB_PASSWORD"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"DB_PASS"
+| 17   | site:sarkarimantra.in intext:"DB_PASS"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"ACCESS_TOKEN"
+| 18   | site:sarkarimantra.in intext:"ACCESS_TOKEN"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"AUTH_TOKEN"
+| 19   | site:sarkarimantra.in intext:"AUTH_TOKEN"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:".env"
+| 20   | site:sarkarimantra.in intext:".env"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"environment"
+| 21   | site:sarkarimantra.in intext:"environment"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"config.php"
+| 22   | site:sarkarimantra.in intext:"config.php"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"web.config"
+| 23   | site:sarkarimantra.in intext:"web.config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"appsettings.json"
+| 24   | site:sarkarimantra.in intext:"appsettings.json"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"application.properties"
+| 25   | site:sarkarimantra.in intext:"application.properties" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"db_conn.php"
+| 26   | site:sarkarimantra.in intext:"db_conn.php"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"database.php"
+| 27   | site:sarkarimantra.in intext:"database.php"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"settings.py"
+| 28   | site:sarkarimantra.in intext:"settings.py"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"secrets.yml"
+| 29   | site:sarkarimantra.in intext:"secrets.yml"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"connectionStrings.config"
+| 30   | site:sarkarimantra.in intext:"connectionStrings.config" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"app.config"
+| 31   | site:sarkarimantra.in intext:"app.config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"config.xml"
+| 32   | site:sarkarimantra.in intext:"config.xml"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"password"
+| 33   | site:sarkarimantra.in intext:"password"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"username"
+| 34   | site:sarkarimantra.in intext:"username"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"apikey"
+| 35   | site:sarkarimantra.in intext:"apikey"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"api_key"
+| 36   | site:sarkarimantra.in intext:"api_key"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"api_secret"
+| 37   | site:sarkarimantra.in intext:"api_secret"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"credentials"
+| 38   | site:sarkarimantra.in intext:"credentials"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"ftp"
+| 39   | site:sarkarimantra.in intext:"ftp"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"ssh"
+| 40   | site:sarkarimantra.in intext:"ssh"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"private+key"
+| 41   | site:sarkarimantra.in intext:"private key"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"certificate"
+| 42   | site:sarkarimantra.in intext:"certificate"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"login"
+| 43   | site:sarkarimantra.in intext:"login"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"secret"
+| 44   | site:sarkarimantra.in intext:"secret"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"server:+Apache"
+| 45   | site:sarkarimantra.in intext:"server: Apache"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"server:+Microsoft-IIS"
+| 46   | site:sarkarimantra.in intext:"server: Microsoft-IIS" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"server:+nginx"
+| 47   | site:sarkarimantra.in intext:"server: nginx"       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Powered+by+PHP"
+| 48   | site:sarkarimantra.in intext:"Powered by PHP"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Powered+by+ASP.NET"
+| 49   | site:sarkarimantra.in intext:"Powered by ASP.NET"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:sarkarimantra.in+intext:"Powered+by+JBoss"
+| 50   | site:sarkarimantra.in intext:"Powered by JBoss"    | No results found or Google blocked the query.      |
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intitle:"Index+of"
+| 1    | site:iolite.xyz intitle:"Index of"                 | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Parent+Directory"
+| 2    | site:iolite.xyz OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Directory+Listing"
+| 3    | site:iolite.xyz OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:iolite.xyz filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:iolite.xyz%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwju3Ifd0eqJAxVIUGcHHZ7LJ4gQiaAMCAkoBA&amp;usg=AOvVaw3PSiDJ6gNqj3NLts1HuXs0">Maps</a> https://iolite.xyz/support/webinars/webinar_recording_database.php&amp;sa=U&amp;ved=2ahUKEwju3Ifd0eqJAxVIUGcHHZ7LJ4gQFnoECAkQAg&amp;usg=AOvVaw2nIm2Wyk4Vwui57EpaPWu0" https://iolite.xyz/support/webinars/webinar_recording_upb.php&amp;sa=U&amp;ved=2ahUKEwju3Ifd0eqJAxVIUGcHHZ7LJ4gQFnoECA0QAg&amp;usg=AOvVaw1iLhFNS4G3uVWYiapgY2NU"  |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/admin"
+| 5    | site:iolite.xyz intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/login"
+| 6    | site:iolite.xyz intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/config"
+| 7    | site:iolite.xyz intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/backup"
+| 8    | site:iolite.xyz intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Error+establishing+a+database+connection"
+| 9    | site:iolite.xyz intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Welcome+to+WordPress"
+| 10   | site:iolite.xyz intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+JIRA"
+| 11   | site:iolite.xyz intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+Trello"
+| 12   | site:iolite.xyz intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_KEY"
+| 13   | site:iolite.xyz intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_SECRET"
+| 14   | site:iolite.xyz intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"SECRET_KEY"
+| 15   | site:iolite.xyz intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASSWORD"
+| 16   | site:iolite.xyz intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intitle:"Index+of"
+| 1    | site:iolite.xyz intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASS"
+| 17   | site:iolite.xyz intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Parent+Directory"
+| 2    | site:iolite.xyz OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ACCESS_TOKEN"
+| 18   | site:iolite.xyz intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Directory+Listing"
+| 3    | site:iolite.xyz OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"AUTH_TOKEN"
+| 19   | site:iolite.xyz intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:".env"
+| 4    | site:iolite.xyz filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:iolite.xyz%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwid6dzl0eqJAxX-UWwGHZaZPXwQiaAMCAkoBA&amp;usg=AOvVaw11RtfAjndsaLgeB10Kr4pK">Maps</a> https://iolite.xyz/support/webinars/webinar_recording_database.php&amp;sa=U&amp;ved=2ahUKEwid6dzl0eqJAxX-UWwGHZaZPXwQFnoECAkQAg&amp;usg=AOvVaw0YWNjshnwwPqv1DRoabvfs" https://iolite.xyz/support/webinars/webinar_recording_upb.php&amp;sa=U&amp;ved=2ahUKEwid6dzl0eqJAxX-UWwGHZaZPXwQFnoECA0QAg&amp;usg=AOvVaw0zidl-QPWedxwmmpQgtAJW"  |
+| 20   | site:iolite.xyz intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/admin"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"environment"
+| 5    | site:iolite.xyz intext:"Index of /admin"           | No results found or Google blocked the query.      |
+| 21   | site:iolite.xyz intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/login"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.php"
+| 6    | site:iolite.xyz intext:"Index of /login"           | No results found or Google blocked the query.      |
+| 22   | site:iolite.xyz intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/config"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"web.config"
+| 7    | site:iolite.xyz intext:"Index of /config"          | No results found or Google blocked the query.      |
+| 23   | site:iolite.xyz intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/backup"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"appsettings.json"
+| 8    | site:iolite.xyz intext:"Index of /backup"          | No results found or Google blocked the query.      |
+| 24   | site:iolite.xyz intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Error+establishing+a+database+connection"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"application.properties"
+| 9    | site:iolite.xyz intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+| 25   | site:iolite.xyz intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Welcome+to+WordPress"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"db_conn.php"
+| 10   | site:iolite.xyz intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+| 26   | site:iolite.xyz intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+JIRA"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"database.php"
+| 11   | site:iolite.xyz intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+| 27   | site:iolite.xyz intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+Trello"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"settings.py"
+| 12   | site:iolite.xyz intext:"powered by Trello"         | No results found or Google blocked the query.      |
+| 28   | site:iolite.xyz intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_KEY"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secrets.yml"
+| 13   | site:iolite.xyz intext:"API_KEY"                   | No results found or Google blocked the query.      |
+| 29   | site:iolite.xyz intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_SECRET"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"connectionStrings.config"
+| 14   | site:iolite.xyz intext:"API_SECRET"                | No results found or Google blocked the query.      |
+| 30   | site:iolite.xyz intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"SECRET_KEY"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"app.config"
+| 15   | site:iolite.xyz intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+| 31   | site:iolite.xyz intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASSWORD"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.xml"
+| 16   | site:iolite.xyz intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+| 32   | site:iolite.xyz intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASS"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"password"
+| 17   | site:iolite.xyz intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+| 33   | site:iolite.xyz intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ACCESS_TOKEN"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"username"
+| 18   | site:iolite.xyz intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+| 34   | site:iolite.xyz intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"AUTH_TOKEN"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"apikey"
+| 19   | site:iolite.xyz intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+| 35   | site:iolite.xyz intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:".env"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_key"
+| 36   | site:iolite.xyz intext:"api_key"                   | No results found or Google blocked the query.      |
+| 20   | site:iolite.xyz intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"environment"
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_secret"
+| 37   | site:iolite.xyz intext:"api_secret"                | No results found or Google blocked the query.      |
+| 21   | site:iolite.xyz intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"credentials"
+| 38   | site:iolite.xyz intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.php"
+| 22   | site:iolite.xyz intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ftp"
+| 39   | site:iolite.xyz intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"web.config"
+| 23   | site:iolite.xyz intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ssh"
+| 40   | site:iolite.xyz intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"appsettings.json"
+| 24   | site:iolite.xyz intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"private+key"
+| 41   | site:iolite.xyz intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"application.properties"
+| 25   | site:iolite.xyz intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"certificate"
+| 42   | site:iolite.xyz intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"db_conn.php"
+| 26   | site:iolite.xyz intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"login"
+| 43   | site:iolite.xyz intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"database.php"
+| 27   | site:iolite.xyz intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secret"
+| 44   | site:iolite.xyz intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"settings.py"
+| 28   | site:iolite.xyz intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Apache"
+| 45   | site:iolite.xyz intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secrets.yml"
+| 29   | site:iolite.xyz intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Microsoft-IIS"
+| 46   | site:iolite.xyz intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"connectionStrings.config"
+| 30   | site:iolite.xyz intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+nginx"
+| 47   | site:iolite.xyz intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"app.config"
+| 31   | site:iolite.xyz intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+PHP"
+| 48   | site:iolite.xyz intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.xml"
+| 32   | site:iolite.xyz intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+ASP.NET"
+| 49   | site:iolite.xyz intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"password"
+| 33   | site:iolite.xyz intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+JBoss"
+| 50   | site:iolite.xyz intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"username"
+| 34   | site:iolite.xyz intext:"username"                  | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"apikey"
+| 35   | site:iolite.xyz intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_key"
+| 36   | site:iolite.xyz intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_secret"
+| 37   | site:iolite.xyz intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"credentials"
+| 38   | site:iolite.xyz intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ftp"
+| 39   | site:iolite.xyz intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ssh"
+| 40   | site:iolite.xyz intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"private+key"
+| 41   | site:iolite.xyz intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"certificate"
+| 42   | site:iolite.xyz intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"login"
+| 43   | site:iolite.xyz intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secret"
+| 44   | site:iolite.xyz intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Apache"
+| 45   | site:iolite.xyz intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Microsoft-IIS"
+| 46   | site:iolite.xyz intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+nginx"
+| 47   | site:iolite.xyz intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+PHP"
+| 48   | site:iolite.xyz intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+ASP.NET"
+| 49   | site:iolite.xyz intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+JBoss"
+| 50   | site:iolite.xyz intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intitle:"Index+of"
+| 1    | site:iolite.xyz intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Parent+Directory"
+| 2    | site:iolite.xyz OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Directory+Listing"
+| 3    | site:iolite.xyz OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:iolite.xyz filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:iolite.xyz%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwjPgrSX0uqJAxWBuZUCHd2-OlEQiaAMCAkoBA&amp;usg=AOvVaw0FwYOPeHbX8u3D_DkiIqFF">Maps</a> https://iolite.xyz/support/webinars/webinar_recording_database.php&amp;sa=U&amp;ved=2ahUKEwjPgrSX0uqJAxWBuZUCHd2-OlEQFnoECAcQAg&amp;usg=AOvVaw3M-Y67sExWUSAIU2eeqyK7" https://iolite.xyz/support/webinars/webinar_recording_upb.php&amp;sa=U&amp;ved=2ahUKEwjPgrSX0uqJAxWBuZUCHd2-OlEQFnoECA0QAg&amp;usg=AOvVaw3G4UT0qgHCvt8rGyelieeq"  |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/admin"
+| 5    | site:iolite.xyz intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/login"
+| 6    | site:iolite.xyz intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/config"
+| 7    | site:iolite.xyz intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/backup"
+| 8    | site:iolite.xyz intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Error+establishing+a+database+connection"
+| 9    | site:iolite.xyz intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Welcome+to+WordPress"
+| 10   | site:iolite.xyz intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+JIRA"
+| 11   | site:iolite.xyz intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+Trello"
+| 12   | site:iolite.xyz intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_KEY"
+| 13   | site:iolite.xyz intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_SECRET"
+| 14   | site:iolite.xyz intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"SECRET_KEY"
+| 15   | site:iolite.xyz intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASSWORD"
+| 16   | site:iolite.xyz intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASS"
+| 17   | site:iolite.xyz intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ACCESS_TOKEN"
+| 18   | site:iolite.xyz intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"AUTH_TOKEN"
+| 19   | site:iolite.xyz intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:".env"
+| 20   | site:iolite.xyz intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"environment"
+| 21   | site:iolite.xyz intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.php"
+| 22   | site:iolite.xyz intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"web.config"
+| 23   | site:iolite.xyz intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"appsettings.json"
+| 24   | site:iolite.xyz intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"application.properties"
+| 25   | site:iolite.xyz intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"db_conn.php"
+| 26   | site:iolite.xyz intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"database.php"
+| 27   | site:iolite.xyz intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"settings.py"
+| 28   | site:iolite.xyz intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secrets.yml"
+| 29   | site:iolite.xyz intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"connectionStrings.config"
+| 30   | site:iolite.xyz intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"app.config"
+| 31   | site:iolite.xyz intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.xml"
+| 32   | site:iolite.xyz intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"password"
+| 33   | site:iolite.xyz intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"username"
+| 34   | site:iolite.xyz intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"apikey"
+| 35   | site:iolite.xyz intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_key"
+| 36   | site:iolite.xyz intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_secret"
+| 37   | site:iolite.xyz intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"credentials"
+| 38   | site:iolite.xyz intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ftp"
+| 39   | site:iolite.xyz intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ssh"
+| 40   | site:iolite.xyz intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"private+key"
+| 41   | site:iolite.xyz intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"certificate"
+| 42   | site:iolite.xyz intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"login"
+| 43   | site:iolite.xyz intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secret"
+| 44   | site:iolite.xyz intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Apache"
+| 45   | site:iolite.xyz intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Microsoft-IIS"
+| 46   | site:iolite.xyz intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+nginx"
+| 47   | site:iolite.xyz intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+PHP"
+| 48   | site:iolite.xyz intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+ASP.NET"
+| 49   | site:iolite.xyz intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+JBoss"
+| 50   | site:iolite.xyz intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intitle:"Index+of"
+| 1    | site:iolite.xyz intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Parent+Directory"
+| 2    | site:iolite.xyz OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+OR+intitle:"Directory+Listing"
+| 3    | site:iolite.xyz OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:iolite.xyz filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://maps.google.com/maps%3Fq%3Dsite:iolite.xyz%2Bfiletype:php%2B%257C%2Bfiletype:asp%2B%257C%2Bfiletype:aspx%2B%257C%2Bfiletype:jsp%2B%257C%2Bfiletype:html%2B%257C%2Bfiletype:json%2B%257C%2Bfiletype:yaml%2B%257C%2Bfiletype:xml%2B%257C%2Bfiletype:conf%2B%257C%2Bfiletype:config%2B%257C%2Bfiletype:sql%2B%257C%2Bfiletype:log%2B%257C%2Bfiletype:txt%2B%257C%2Bfiletype:htpasswd%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwj7msKQ1eqJAxUNUGwGHfDuMV4QiaAMCAkoBA&amp;usg=AOvVaw0lBBHLerQngbtZ7i25FXpp">Maps</a> https://iolite.xyz/support/webinars/webinar_recording_database.php&amp;sa=U&amp;ved=2ahUKEwj7msKQ1eqJAxUNUGwGHfDuMV4QFnoECAYQAg&amp;usg=AOvVaw3AbzqNY7js9m09MRUDfqOG" https://iolite.xyz/support/webinars/webinar_recording_upb.php&amp;sa=U&amp;ved=2ahUKEwj7msKQ1eqJAxUNUGwGHfDuMV4QFnoECA0QAg&amp;usg=AOvVaw0RPFQk07E_oes5uGzU1gJX"  |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/admin"
+| 5    | site:iolite.xyz intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/login"
+| 6    | site:iolite.xyz intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/config"
+| 7    | site:iolite.xyz intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Index+of+/backup"
+| 8    | site:iolite.xyz intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Error+establishing+a+database+connection"
+| 9    | site:iolite.xyz intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Welcome+to+WordPress"
+| 10   | site:iolite.xyz intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+JIRA"
+| 11   | site:iolite.xyz intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"powered+by+Trello"
+| 12   | site:iolite.xyz intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_KEY"
+| 13   | site:iolite.xyz intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"API_SECRET"
+| 14   | site:iolite.xyz intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"SECRET_KEY"
+| 15   | site:iolite.xyz intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASSWORD"
+| 16   | site:iolite.xyz intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"DB_PASS"
+| 17   | site:iolite.xyz intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ACCESS_TOKEN"
+| 18   | site:iolite.xyz intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"AUTH_TOKEN"
+| 19   | site:iolite.xyz intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:".env"
+| 20   | site:iolite.xyz intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"environment"
+| 21   | site:iolite.xyz intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.php"
+| 22   | site:iolite.xyz intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"web.config"
+| 23   | site:iolite.xyz intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"appsettings.json"
+| 24   | site:iolite.xyz intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"application.properties"
+| 25   | site:iolite.xyz intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"db_conn.php"
+| 26   | site:iolite.xyz intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"database.php"
+| 27   | site:iolite.xyz intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"settings.py"
+| 28   | site:iolite.xyz intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secrets.yml"
+| 29   | site:iolite.xyz intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"connectionStrings.config"
+| 30   | site:iolite.xyz intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"app.config"
+| 31   | site:iolite.xyz intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"config.xml"
+| 32   | site:iolite.xyz intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"password"
+| 33   | site:iolite.xyz intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"username"
+| 34   | site:iolite.xyz intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"apikey"
+| 35   | site:iolite.xyz intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_key"
+| 36   | site:iolite.xyz intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"api_secret"
+| 37   | site:iolite.xyz intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"credentials"
+| 38   | site:iolite.xyz intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ftp"
+| 39   | site:iolite.xyz intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"ssh"
+| 40   | site:iolite.xyz intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"private+key"
+| 41   | site:iolite.xyz intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"certificate"
+| 42   | site:iolite.xyz intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"login"
+| 43   | site:iolite.xyz intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"secret"
+| 44   | site:iolite.xyz intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Apache"
+| 45   | site:iolite.xyz intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+Microsoft-IIS"
+| 46   | site:iolite.xyz intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"server:+nginx"
+| 47   | site:iolite.xyz intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+PHP"
+| 48   | site:iolite.xyz intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+ASP.NET"
+| 49   | site:iolite.xyz intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:iolite.xyz+intext:"Powered+by+JBoss"
+| 50   | site:iolite.xyz intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:"Index+of"
+| 1    | site:zomato.com intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Parent+Directory"
+| 2    | site:zomato.com OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Directory+Listing"
+| 3    | site:zomato.com OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:zomato.com filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:php%2B%7C%2Bfiletype:asp%2B%7C%2Bfiletype:aspx%2B%7C%2Bfiletype:jsp%2B%7C%2Bfiletype:html%2B%7C%2Bfiletype:json%2B%7C%2Bfiletype:yaml%2B%7C%2Bfiletype:xml%2B%7C%2Bfiletype:conf%2B%7C%2Bfiletype:config%2B%7C%2Bfiletype:sql%2B%7C%2Bfiletype:log%2B%7C%2Bfiletype:txt%2B%7C%2Bfiletype:htpasswd&amp;q=EgRv3xp6GKP69rkGIjAjQQz99Xs_wHj52cGgh7YWjI97Dw0DtRnzuMar7hbS-nEuHNU1z2J7iGPnOtOeKu8yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/admin"
+| 5    | site:zomato.com intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/login"
+| 6    | site:zomato.com intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/config"
+| 7    | site:zomato.com intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/backup"
+| 8    | site:zomato.com intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Error+establishing+a+database+connection"
+| 9    | site:zomato.com intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Welcome+to+WordPress"
+| 10   | site:zomato.com intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+JIRA"
+| 11   | site:zomato.com intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+Trello"
+| 12   | site:zomato.com intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_KEY"
+| 13   | site:zomato.com intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_SECRET"
+| 14   | site:zomato.com intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"SECRET_KEY"
+| 15   | site:zomato.com intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASSWORD"
+| 16   | site:zomato.com intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASS"
+| 17   | site:zomato.com intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ACCESS_TOKEN"
+| 18   | site:zomato.com intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"AUTH_TOKEN"
+| 19   | site:zomato.com intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:".env"
+| 20   | site:zomato.com intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"environment"
+| 21   | site:zomato.com intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.php"
+| 22   | site:zomato.com intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"web.config"
+| 23   | site:zomato.com intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"appsettings.json"
+| 24   | site:zomato.com intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"application.properties"
+| 25   | site:zomato.com intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"db_conn.php"
+| 26   | site:zomato.com intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"database.php"
+| 27   | site:zomato.com intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"settings.py"
+| 28   | site:zomato.com intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secrets.yml"
+| 29   | site:zomato.com intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"connectionStrings.config"
+| 30   | site:zomato.com intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"app.config"
+| 31   | site:zomato.com intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.xml"
+| 32   | site:zomato.com intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"password"
+| 33   | site:zomato.com intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"username"
+| 34   | site:zomato.com intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"apikey"
+| 35   | site:zomato.com intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_key"
+| 36   | site:zomato.com intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_secret"
+| 37   | site:zomato.com intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"credentials"
+| 38   | site:zomato.com intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ftp"
+| 39   | site:zomato.com intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ssh"
+| 40   | site:zomato.com intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"private+key"
+| 41   | site:zomato.com intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"certificate"
+| 42   | site:zomato.com intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"login"
+| 43   | site:zomato.com intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secret"
+| 44   | site:zomato.com intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Apache"
+| 45   | site:zomato.com intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Microsoft-IIS"
+| 46   | site:zomato.com intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+nginx"
+| 47   | site:zomato.com intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+PHP"
+| 48   | site:zomato.com intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+ASP.NET"
+| 49   | site:zomato.com intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+JBoss"
+| 50   | site:zomato.com intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+
+Google Dork Enumeration Completed.
+
+
+Starting Google Dork Enumeration...
+
+Querying: site:zomato.com intitle:"Index of"
+
+Results for "site:zomato.com intitle:"Index of"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com OR intitle:"Parent Directory"
+
+Results for "site:zomato.com OR intitle:"Parent Directory"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com filetype:php | filetype:conf | filetype:sql | filetype:log
+
+Results for "site:zomato.com filetype:php | filetype:conf | filetype:sql | filetype:log":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"Index of /admin"
+
+Results for "site:zomato.com intext:"Index of /admin"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"Error establishing a database connection"
+
+Results for "site:zomato.com intext:"Error establishing a database connection"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+
+Starting Google Dork Enumeration...
+
+Querying: site:zomato.com intitle:"Index of"
+
+Results for "site:zomato.com intitle:"Index of"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com OR intitle:"Parent Directory"
+
+Results for "site:zomato.com OR intitle:"Parent Directory"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"API_KEY"
+
+Results for "site:zomato.com intext:"API_KEY"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com filetype:php | filetype:conf | filetype:sql | filetype:log
+
+Starting Google Dork Enumeration...
+
+Querying: site:zomato.com intitle:"Index of"
+
+Results for "site:zomato.com intitle:"Index of"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com OR intitle:"Parent Directory"
+
+Results for "site:zomato.com OR intitle:"Parent Directory"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com filetype:php | filetype:conf | filetype:sql | filetype:log
+
+Results for "site:zomato.com filetype:php | filetype:conf | filetype:sql | filetype:log":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"Index of /admin"
+
+Results for "site:zomato.com intext:"Index of /admin"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"Error establishing a database connection"
+
+Results for "site:zomato.com intext:"Error establishing a database connection"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"API_KEY"
+
+Results for "site:zomato.com intext:"API_KEY"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:"SECRET_KEY"
+
+Results for "site:zomato.com intext:"SECRET_KEY"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+Querying: site:zomato.com intext:".env"
+
+Results for "site:zomato.com intext:".env"":
+No results found or Google blocked the query.
+----------------------------------------------------
+
+
+Google Dork Enumeration Completed.
+Results saved in google_dork_output.txt
+
+
+Starting Google Dork Enumeration...
+
+| S.No | Dork Query                                         | Results                                            |
+| ---- | -------------------------------------------------- | -------------------------------------------------- |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:"Index+of"
+| 1    | site:zomato.com intitle:"Index of"                 | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Parent+Directory"
+| 2    | site:zomato.com OR intitle:"Parent Directory"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+OR+intitle:"Directory+Listing"
+| 3    | site:zomato.com OR intitle:"Directory Listing"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:php+|+filetype:asp+|+filetype:aspx+|+filetype:jsp+|+filetype:html+|+filetype:json+|+filetype:yaml+|+filetype:xml+|+filetype:conf+|+filetype:config+|+filetype:sql+|+filetype:log+|+filetype:txt+|+filetype:htpasswd
+| 4    | site:zomato.com filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:json | filetype:yaml | filetype:xml | filetype:conf | filetype:config | filetype:sql | filetype:log | filetype:txt | filetype:htpasswd | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:php%2B%7C%2Bfiletype:asp%2B%7C%2Bfiletype:aspx%2B%7C%2Bfiletype:jsp%2B%7C%2Bfiletype:html%2B%7C%2Bfiletype:json%2B%7C%2Bfiletype:yaml%2B%7C%2Bfiletype:xml%2B%7C%2Bfiletype:conf%2B%7C%2Bfiletype:config%2B%7C%2Bfiletype:sql%2B%7C%2Bfiletype:log%2B%7C%2Bfiletype:txt%2B%7C%2Bfiletype:htpasswd&amp;q=EgRv3xp6GIv89rkGIjBOz2VQLbOsHfYPCfNfXC5JOArQfueWQyzBCV4jHmsqY7z_bGv__eRPJFNY5Jmu-vgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/admin"
+| 5    | site:zomato.com intext:"Index of /admin"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/login"
+| 6    | site:zomato.com intext:"Index of /login"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/config"
+| 7    | site:zomato.com intext:"Index of /config"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Index+of+/backup"
+| 8    | site:zomato.com intext:"Index of /backup"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Error+establishing+a+database+connection"
+| 9    | site:zomato.com intext:"Error establishing a database connection" | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Welcome+to+WordPress"
+| 10   | site:zomato.com intext:"Welcome to WordPress"      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+JIRA"
+| 11   | site:zomato.com intext:"powered by JIRA"           | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"powered+by+Trello"
+| 12   | site:zomato.com intext:"powered by Trello"         | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_KEY"
+| 13   | site:zomato.com intext:"API_KEY"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"API_SECRET"
+| 14   | site:zomato.com intext:"API_SECRET"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"SECRET_KEY"
+| 15   | site:zomato.com intext:"SECRET_KEY"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASSWORD"
+| 16   | site:zomato.com intext:"DB_PASSWORD"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"DB_PASS"
+| 17   | site:zomato.com intext:"DB_PASS"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ACCESS_TOKEN"
+| 18   | site:zomato.com intext:"ACCESS_TOKEN"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"AUTH_TOKEN"
+| 19   | site:zomato.com intext:"AUTH_TOKEN"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:".env"
+| 20   | site:zomato.com intext:".env"                      | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"environment"
+| 21   | site:zomato.com intext:"environment"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.php"
+| 22   | site:zomato.com intext:"config.php"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"web.config"
+| 23   | site:zomato.com intext:"web.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"appsettings.json"
+| 24   | site:zomato.com intext:"appsettings.json"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"application.properties"
+| 25   | site:zomato.com intext:"application.properties"    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"db_conn.php"
+| 26   | site:zomato.com intext:"db_conn.php"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"database.php"
+| 27   | site:zomato.com intext:"database.php"              | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"settings.py"
+| 28   | site:zomato.com intext:"settings.py"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secrets.yml"
+| 29   | site:zomato.com intext:"secrets.yml"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"connectionStrings.config"
+| 30   | site:zomato.com intext:"connectionStrings.config"  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"app.config"
+| 31   | site:zomato.com intext:"app.config"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"config.xml"
+| 32   | site:zomato.com intext:"config.xml"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"password"
+| 33   | site:zomato.com intext:"password"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"username"
+| 34   | site:zomato.com intext:"username"                  | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"apikey"
+| 35   | site:zomato.com intext:"apikey"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_key"
+| 36   | site:zomato.com intext:"api_key"                   | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"api_secret"
+| 37   | site:zomato.com intext:"api_secret"                | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"credentials"
+| 38   | site:zomato.com intext:"credentials"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ftp"
+| 39   | site:zomato.com intext:"ftp"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"ssh"
+| 40   | site:zomato.com intext:"ssh"                       | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"private+key"
+| 41   | site:zomato.com intext:"private key"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"certificate"
+| 42   | site:zomato.com intext:"certificate"               | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"login"
+| 43   | site:zomato.com intext:"login"                     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"secret"
+| 44   | site:zomato.com intext:"secret"                    | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Apache"
+| 45   | site:zomato.com intext:"server: Apache"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+Microsoft-IIS"
+| 46   | site:zomato.com intext:"server: Microsoft-IIS"     | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"server:+nginx"
+| 47   | site:zomato.com intext:"server: nginx"             | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+PHP"
+| 48   | site:zomato.com intext:"Powered by PHP"            | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+ASP.NET"
+| 49   | site:zomato.com intext:"Powered by ASP.NET"        | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:"Powered+by+JBoss"
+| 50   | site:zomato.com intext:"Powered by JBoss"          | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'login.html'+intext:'Admin+Login'
+| 51   | site:zomato.com inurl:'login.html' intext:'Admin Login' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27login.html%27%2Bintext:%27Admin%2BLogin%27&amp;q=EgRv3xp6GMr89rkGIjDceh4ubaCa6Lc4iTS-mQjZ9dC8dgh87AA0cdrHNkFq_ULd8TzzQ-yAi3QRPfBkwDYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'login.php'+intext:'User+Login'
+| 52   | site:zomato.com inurl:'login.php' intext:'User Login' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27login.php%27%2Bintext:%27User%2BLogin%27&amp;q=EgRv3xp6GMz89rkGIjD5CmHXvrsNjV-28RCZwczKXAEdNxwr1rpfba1lZkLJuWIa7zixXJwlCT9646OR6ZoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'signin.php'+intext:'Sign+In'
+| 53   | site:zomato.com inurl:'signin.php' intext:'Sign In' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27signin.php%27%2Bintext:%27Sign%2BIn%27&amp;q=EgRv3xp6GM789rkGIjCJ7CIWUjnHLa6GqvkwoZjDQrLYnRB_4dL3he8pnVwHfCBGWQZiiv8gt0GK8YJTFzMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'auth.php'+intext:'Authentication+Required'
+| 54   | site:zomato.com inurl:'auth.php' intext:'Authentication Required' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27auth.php%27%2Bintext:%27Authentication%2BRequired%27&amp;q=EgRv3xp6GM_89rkGIjComF0GvNe5mYXM_Ye3YmeGVz0ASAR6PiF3QqoWWyTQw-XZ6mW-G-gnct4bZz98J0cyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'admin.php'+intext:'Admin+Dashboard'
+| 55   | site:zomato.com inurl:'admin.php' intext:'Admin Dashboard' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27admin.php%27%2Bintext:%27Admin%2BDashboard%27&amp;q=EgRv3xp6GNH89rkGIjBQQnbAfyTPA1LthXxAkPHuaMCBgsDEZotlXp_0fFBARbHNmHOC8sH1z0mKbcWqkfwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'index.php'+intext:'Index+of+/'
+| 56   | site:zomato.com inurl:'index.php' intext:'Index of /' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27index.php%27%2Bintext:%27Index%2Bof%2B/%27&amp;q=EgRv3xp6GNL89rkGIjAEdEyINbrximw1vdvAiX05ng9AazIvXfv7yUImNII1XOo8R2a2fRJwD34WjbMD41gyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config.php'+intext:'Configuration+File'
+| 57   | site:zomato.com inurl:'config.php' intext:'Configuration File' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config.php%27%2Bintext:%27Configuration%2BFile%27&amp;q=EgRv3xp6GNT89rkGIjBeXNXxNyDTCHHGjsq110UJBODGXTf7V2MloEiAJWebKYiKgb_NvRZi9Qr9-Hb-dc4yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'backup.zip'+intext:'Backup+File'
+| 58   | site:zomato.com inurl:'backup.zip' intext:'Backup File' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27backup.zip%27%2Bintext:%27Backup%2BFile%27&amp;q=EgRv3xp6GNb89rkGIjCCG-hxOnTSKFbOp9PlBrBGo9FG57FXxI8CMdpkdXBRLNfxvENYurtOn1nTC8BGgmcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'db.sql'+intext:'Database+Dump'
+| 59   | site:zomato.com inurl:'db.sql' intext:'Database Dump' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27db.sql%27%2Bintext:%27Database%2BDump%27&amp;q=EgRv3xp6GNf89rkGIjAmIZXvt-jKenxz1Hnq_iSWE6fMKUkUSwmYb1cUVYbwWWx2L-TKzIOoviK23sKiI9QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'error.log'+intext:'Error+Log'
+| 60   | site:zomato.com inurl:'error.log' intext:'Error Log' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27error.log%27%2Bintext:%27Error%2BLog%27&amp;q=EgRv3xp6GNn89rkGIjD2I8Sqs15xRqbwfKTPIg9ubDAFwVs4ywb5as5vl2MJKBb42HWRKhpqHwT7NriKTNoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'phpinfo.php'+intext:'PHP+Version'
+| 61   | site:zomato.com inurl:'phpinfo.php' intext:'PHP Version' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27phpinfo.php%27%2Bintext:%27PHP%2BVersion%27&amp;q=EgRv3xp6GNr89rkGIjDD1ZHSCtgz86bKh3dCzJFeYfplnV44wR067xFT06UF9-ZLkw1uaSFg8xEQxqayIKoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'ftp'+intext:'FTP+Credentials'
+| 62   | site:zomato.com inurl:'ftp' intext:'FTP Credentials' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27ftp%27%2Bintext:%27FTP%2BCredentials%27&amp;q=EgRv3xp6GNz89rkGIjANl95XikcJrCIOp169w2Cvytn-8FCfp6bPJFo_Bv5VGfrPnmCZyKg9sZVVEY8Puu0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'private.key'+intext:'Private+Key'
+| 63   | site:zomato.com inurl:'private.key' intext:'Private Key' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27private.key%27%2Bintext:%27Private%2BKey%27&amp;q=EgRv3xp6GN789rkGIjCqSTPgQyYs_d_apaJZM-CbWJD5RXGv9jl97swYOhUJ-rXiCalXziFA7k445RalIUgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config.json'+intext:'API_KEY'
+| 64   | site:zomato.com inurl:'config.json' intext:'API_KEY' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config.json%27%2Bintext:%27API_KEY%27&amp;q=EgRv3xp6GN_89rkGIjAufjQxBZyQUOo_1yfrY7bdV1SSJzD8nPFz6lKV64zAPuiv2upPygAqfry_U18V0hcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'settings.py'+intext:'DB_PASSWORD'
+| 65   | site:zomato.com inurl:'settings.py' intext:'DB_PASSWORD' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27settings.py%27%2Bintext:%27DB_PASSWORD%27&amp;q=EgRv3xp6GOD89rkGIjDgU9D4tVxKgz2EKP7232yNeuY6KJ0vevKMdnCCL6vnk0iODthkurG37zqVamrIJToyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'app.config'+intext:'SECRET_KEY'
+| 66   | site:zomato.com inurl:'app.config' intext:'SECRET_KEY' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27app.config%27%2Bintext:%27SECRET_KEY%27&amp;q=EgRv3xp6GOL89rkGIjD4NHDv49uM95Y-mFxpyAXu-y5OrCaIlsowGuGJuDunGvdKJ9remvU2mfKmvpnTb-QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'db_conn.php'+intext:'Database+Connection'
+| 67   | site:zomato.com inurl:'db_conn.php' intext:'Database Connection' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27db_conn.php%27%2Bintext:%27Database%2BConnection%27&amp;q=EgRv3xp6GOT89rkGIjBwgDiBpQyOMEKdHILOflLW40gGMRZeqpC329AVeeZTonAuL9YL5rPIqG7We-0z9wsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'secrets.yml'+intext:'Environment+Secrets'
+| 68   | site:zomato.com inurl:'secrets.yml' intext:'Environment Secrets' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27secrets.yml%27%2Bintext:%27Environment%2BSecrets%27&amp;q=EgRv3xp6GOX89rkGIjCRdMuyw54OIBKFo4rrGm-BNgfS8gJawnZn-EFlbKGOmpmbY6JNR3sxS-QU7suZl88yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'appsettings.json'+intext:'App+Settings'
+| 69   | site:zomato.com inurl:'appsettings.json' intext:'App Settings' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27appsettings.json%27%2Bintext:%27App%2BSettings%27&amp;q=EgRv3xp6GOf89rkGIjAFOYjhSfUniLiPwwLUbOaf0AWGS-k4QQvm4OvIrq753KxBC6Bffez5FwofAAZx2SIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'web.config'+intext:'Web+Configuration'
+| 70   | site:zomato.com inurl:'web.config' intext:'Web Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27web.config%27%2Bintext:%27Web%2BConfiguration%27&amp;q=EgRv3xp6GOj89rkGIjA-7NHnKa_el0ILZ6eqUSymgyz7EsW9lsPmLmeYjxXbzw2npU9oFD0piYQ46to4hWoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'api_key'+intext:'API+Key+Found'
+| 71   | site:zomato.com inurl:'api_key' intext:'API Key Found' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27api_key%27%2Bintext:%27API%2BKey%2BFound%27&amp;q=EgRv3xp6GOr89rkGIjDOmD9qQaZbCINl32ZS9C9JGznEkK9H-OAJo3fDsJ0kWnR1EJUmfutxqwrKLTAZ8DgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'access_token'+intext:'Access+Token'
+| 72   | site:zomato.com inurl:'access_token' intext:'Access Token' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27access_token%27%2Bintext:%27Access%2BToken%27&amp;q=EgRv3xp6GOv89rkGIjAvvHeqzKY3xq5D-MUk4_5eVJZ-aJWLUJortDMx7jBijJNBK9Od7wlbsdln-bG9oWMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'htpasswd'+intext:'Password+File'
+| 73   | site:zomato.com inurl:'htpasswd' intext:'Password File' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27htpasswd%27%2Bintext:%27Password%2BFile%27&amp;q=EgRv3xp6GO389rkGIjAHYdePa0B_4ZY4fd1G5a4FuvlGPbAgQqwKvWm-9fkKE2y7iKViXU_4vhd3HHReDeYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'db_backup.sql'+intext:'Database+Backup'
+| 74   | site:zomato.com inurl:'db_backup.sql' intext:'Database Backup' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27db_backup.sql%27%2Bintext:%27Database%2BBackup%27&amp;q=EgRv3xp6GO_89rkGIjAWV_c-2c47nb-p2XU7lUqB4DjLe9qAmOvi2lZnqPWPC76riQxe-oBLFcVgMlEj730yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'private.pem'+intext:'Private+PEM'
+| 75   | site:zomato.com inurl:'private.pem' intext:'Private PEM' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27private.pem%27%2Bintext:%27Private%2BPEM%27&amp;q=EgRv3xp6GPD89rkGIjCO56EbTVy75pNeWdDqc-jPeosSKRG2t__5XOVVsCdRKX3qvzjFGQklqMwaA3PGkg4yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'swagger.json'+intext:'API+Documentation'
+| 76   | site:zomato.com inurl:'swagger.json' intext:'API Documentation' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27swagger.json%27%2Bintext:%27API%2BDocumentation%27&amp;q=EgRv3xp6GPL89rkGIjAOfqz1WHTtsJZ1ZvOY-7awrdYL5NKy0KwIztoFitqCfecDgJsqmpu64FUP0e73ODUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'graphql'+intext:'GraphQL+API'
+| 77   | site:zomato.com inurl:'graphql' intext:'GraphQL API' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27graphql%27%2Bintext:%27GraphQL%2BAPI%27&amp;q=EgRv3xp6GPT89rkGIjA2K7fPn6ux6gkvmsE8sazGNYHwSXvPsKFiSUqNz6PCoEwBiKxKUWiH6w5e6Lar2j0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'environment'+intext:'Environment+Variables'
+| 78   | site:zomato.com inurl:'environment' intext:'Environment Variables' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27environment%27%2Bintext:%27Environment%2BVariables%27&amp;q=EgRv3xp6GPX89rkGIjBy8fqd37WHThof1aZzch94nh-68wRHzj2d1xt1X2iCsSFQmRtv_sC_Rgt2UJRs0zYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config'+intext:'Sensitive+Configuration'
+| 79   | site:zomato.com inurl:'config' intext:'Sensitive Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config%27%2Bintext:%27Sensitive%2BConfiguration%27&amp;q=EgRv3xp6GPf89rkGIjDt3Q8fOOsGgdPDsk4_r2lbn3kkdJSMeD1-u9pxfxD9smvS9PS81fDlpq_7c23HJTgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'logs'+intext:'Log+File'
+| 80   | site:zomato.com inurl:'logs' intext:'Log File'     | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27logs%27%2Bintext:%27Log%2BFile%27&amp;q=EgRv3xp6GPj89rkGIjC7MkJ5X4n_pGJf6Eg7NOs8aHaMDcNmf_ANfE9EZHVszFlog7CdMvWuIDj7D1VruAQyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'secrets'+intext:'Secret+Keys'
+| 81   | site:zomato.com inurl:'secrets' intext:'Secret Keys' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27secrets%27%2Bintext:%27Secret%2BKeys%27&amp;q=EgRv3xp6GPr89rkGIjDIE1lTqcT59qqmQ8uG-whjekh9gEaoREYGMWZ64BsO10QpzP_UVyinyCoV80nPRWwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'database.php'+intext:'Database+Configuration'
+| 82   | site:zomato.com inurl:'database.php' intext:'Database Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27database.php%27%2Bintext:%27Database%2BConfiguration%27&amp;q=EgRv3xp6GPz89rkGIjDVyeFI_iVaVxnP1GqIq_K5C9gDWw8lmcTr9v9NKzFsv5fb6UR5bCsdECfXvjMlP-EyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'settings.xml'+intext:'XML+Settings'
+| 83   | site:zomato.com inurl:'settings.xml' intext:'XML Settings' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27settings.xml%27%2Bintext:%27XML%2BSettings%27&amp;q=EgRv3xp6GP389rkGIjCCp1XY7IgYLevYKOtR-N8sYdGBupeZZaoxeqc28SeByLc_XKfSw7AXyHpIZbNABi4yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'connectionStrings.config'+intext:'Connection+Strings'
+| 84   | site:zomato.com inurl:'connectionStrings.config' intext:'Connection Strings' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27connectionStrings.config%27%2Bintext:%27Connection%2BStrings%27&amp;q=EgRv3xp6GP_89rkGIjB5ShbVdYcLR1eCc_-QV1MheAB2jQqAq2TbAshViyIH2e2MUNNspPlh9VSpsFrRbyIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'server-status'+intext:'Apache+Server+Status'
+| 85   | site:zomato.com inurl:'server-status' intext:'Apache Server Status' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27server-status%27%2Bintext:%27Apache%2BServer%2BStatus%27&amp;q=EgRv3xp6GID99rkGIjAnMO147Mi_ZQEOCESVdI5DXpYwxskJd_ZKx4mf30CwA8RsHWGwNWZwF5WXcMA8sh4yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'nginx.conf'+intext:'Nginx+Configuration'
+| 86   | site:zomato.com inurl:'nginx.conf' intext:'Nginx Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27nginx.conf%27%2Bintext:%27Nginx%2BConfiguration%27&amp;q=EgRv3xp6GIL99rkGIjB79oo9IiKwB-yRp_LpNnhlzkgX9RqD5IYXvVagj3tSWKjuRGrur_hkodPwjwNLGVwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'password'+intext:'Credentials'
+| 87   | site:zomato.com inurl:'password' intext:'Credentials' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27password%27%2Bintext:%27Credentials%27&amp;q=EgRv3xp6GIP99rkGIjAGKyhDdlKP43rOkjcUCj184PrDLGGa3Hw1Qx2ooiJdUwQrmVFlbng9rRY0QH4Ti3QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'username'+intext:'User+Credentials'
+| 88   | site:zomato.com inurl:'username' intext:'User Credentials' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27username%27%2Bintext:%27User%2BCredentials%27&amp;q=EgRv3xp6GIX99rkGIjBft0RVvJCNtpfeFpWbFiy85-3fbJn6-Kd89M1v_Os4a5JWIAc0DzkD3La48kEQzj4yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'ftp'+intext:'FTP+Server'
+| 89   | site:zomato.com inurl:'ftp' intext:'FTP Server'    | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27ftp%27%2Bintext:%27FTP%2BServer%27&amp;q=EgRv3xp6GIb99rkGIjAE_TAr49OaAV79vHGdnLN_ng_Cp8Gl1rdSkAfn7ZZgSuhE0vdtcKonk_h2BCUEZmcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'ssh'+intext:'SSH+Credentials'
+| 90   | site:zomato.com inurl:'ssh' intext:'SSH Credentials' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27ssh%27%2Bintext:%27SSH%2BCredentials%27&amp;q=EgRv3xp6GIj99rkGIjB0IVQgwnuyH_9KU-4ZURX0bZHpz_niKFQJUzmUIteCnqJDDxa37vOmrqUmJu7N8ckyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'ssl'+intext:'SSL+Certificates'
+| 91   | site:zomato.com inurl:'ssl' intext:'SSL Certificates' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27ssl%27%2Bintext:%27SSL%2BCertificates%27&amp;q=EgRv3xp6GIn99rkGIjCKP00YtsAqcqshqDxdvANq2FetpMnv5q7XF7YZrPfcOiy4MHTp401o5RC_yh0nv8wyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'error'+intext:'Error+Logs'
+| 92   | site:zomato.com inurl:'error' intext:'Error Logs'  | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27error%27%2Bintext:%27Error%2BLogs%27&amp;q=EgRv3xp6GIv99rkGIjCN9zP5XKXR_wL_hmMgk_tPy9rTUaBbn0tMHMnYxCAqgf2Qi2WVr57ZzcbRiabHKCsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'debug'+intext:'Debug+Information'
+| 93   | site:zomato.com inurl:'debug' intext:'Debug Information' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27debug%27%2Bintext:%27Debug%2BInformation%27&amp;q=EgRv3xp6GIz99rkGIjBBAZLdqUM3Hi4drCbCwmLpFI9uJ9m3dPa3wjB9or4aCAZDgYJGyuwAMoSSnIm52iQyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'dump.sql'+intext:'SQL+Dump'
+| 94   | site:zomato.com inurl:'dump.sql' intext:'SQL Dump' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27dump.sql%27%2Bintext:%27SQL%2BDump%27&amp;q=EgRv3xp6GI799rkGIjC7_QZLbD9KJ6Rf1yG3kP9icbt7kWEyff85bSejKP_OSvyXc-1sJVpYdcXt8hf1Cu0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config.yml'+intext:'YAML+Configuration'
+| 95   | site:zomato.com inurl:'config.yml' intext:'YAML Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config.yml%27%2Bintext:%27YAML%2BConfiguration%27&amp;q=EgRv3xp6GI_99rkGIjCY4QK1SxBEdqGIx0LfVjDVAyTXUNuTalHVlyJWUwTrGhWLKH521b03CWr518rwgrIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'tokens'+intext:'Access+Tokens'
+| 96   | site:zomato.com inurl:'tokens' intext:'Access Tokens' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27tokens%27%2Bintext:%27Access%2BTokens%27&amp;q=EgRv3xp6GJH99rkGIjBwyECZkcCNt4IeGY92wjGfFYyn9kc_jZRseBY4N2VhXWBZOfMANlOWjcSrqIsZiQcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'vulnerabilities'+intext:'Security+Vulnerabilities'
+| 97   | site:zomato.com inurl:'vulnerabilities' intext:'Security Vulnerabilities' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27vulnerabilities%27%2Bintext:%27Security%2BVulnerabilities%27&amp;q=EgRv3xp6GJP99rkGIjDyG8Dyn--SJRbwoFYWV6yVX-t0ZMEAa72fqVcp-zQA36Ztkdu0OvcDswxlXca3VdUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'uploads'+intext:'Uploaded+Files'
+| 98   | site:zomato.com inurl:'uploads' intext:'Uploaded Files' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27uploads%27%2Bintext:%27Uploaded%2BFiles%27&amp;q=EgRv3xp6GJT99rkGIjCujlqpJ_ZwtnL2cKuIas10DCO6W_4AR7vnwOysKgjv9JZPG_E4tlwXGTRzmvYmDpAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'downloads'+intext:'Downloadable+Files'
+| 99   | site:zomato.com inurl:'downloads' intext:'Downloadable Files' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27downloads%27%2Bintext:%27Downloadable%2BFiles%27&amp;q=EgRv3xp6GJb99rkGIjBSTVcZjtE0QOwEuuqEVBD8FnCeCQ-chNMyXq8HMwrPEvy81Q5W9orm6GmfEA5V6agyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'temp'+intext:'Temporary+Files'
+| 100  | site:zomato.com inurl:'temp' intext:'Temporary Files' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27temp%27%2Bintext:%27Temporary%2BFiles%27&amp;q=EgRv3xp6GJf99rkGIjDRwMBTFsutBBGSwjSsfEA-UKBRUcrpCwop5IoDDp85p4Alinzpjb87lUox0Fbhe44yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'cache'+intext:'Cache+Directory'
+| 101  | site:zomato.com inurl:'cache' intext:'Cache Directory' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27cache%27%2Bintext:%27Cache%2BDirectory%27&amp;q=EgRv3xp6GJn99rkGIjCzvdWwZtNxW-hqLRRNq2NCtTU3Gn0nGe1Ayc5ZZGavw2XSP6xf4S0rZ3yJXWmzUwIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'keys'+intext:'Encryption+Keys'
+| 102  | site:zomato.com inurl:'keys' intext:'Encryption Keys' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27keys%27%2Bintext:%27Encryption%2BKeys%27&amp;q=EgRv3xp6GJr99rkGIjD9dXio62Ch8qdhRgxuIHrsu8i-RYfdnrQn9LEOyup52Y_GI5Ph2D_Yv8n91DdCeWEyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'license.key'+intext:'License+Key'
+| 103  | site:zomato.com inurl:'license.key' intext:'License Key' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27license.key%27%2Bintext:%27License%2BKey%27&amp;q=EgRv3xp6GJz99rkGIjANZXt2zhJaKQSfxMH3wvdpIgT4jAcJn2M80es9YPEoOjZauzF5rmraKwnVS8Ov3qMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config.bak'+intext:'Backup+Configuration'
+| 104  | site:zomato.com inurl:'config.bak' intext:'Backup Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config.bak%27%2Bintext:%27Backup%2BConfiguration%27&amp;q=EgRv3xp6GJ399rkGIjBqK-uacnZdqGH1remg7NB5AKtXfwnUSz3JmVW64Ride4aIk82gexDympFg730U82wyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'user.db'+intext:'User+Database'
+| 105  | site:zomato.com inurl:'user.db' intext:'User Database' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27user.db%27%2Bintext:%27User%2BDatabase%27&amp;q=EgRv3xp6GJ_99rkGIjD9NxlkKuHifqbTC8YAGjuJR2bXJ3JqZxJJ9nwPmEBrmymDJ3iz-ILS70o5b4duLFcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'data.json'+intext:'Data+Dump'
+| 106  | site:zomato.com inurl:'data.json' intext:'Data Dump' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27data.json%27%2Bintext:%27Data%2BDump%27&amp;q=EgRv3xp6GKD99rkGIjBYmk7sqcwG060zfzV6_UFukatOYYXlXEf0kPVnqztzouBO6kWJLY8aIvhUcQhjLIAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'app.config'+intext:'Application+Configuration'
+| 107  | site:zomato.com inurl:'app.config' intext:'Application Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27app.config%27%2Bintext:%27Application%2BConfiguration%27&amp;q=EgRv3xp6GKL99rkGIjD2WR6qdwfUjEwxSQ2xdBK50xH-vjzllLXggr7VbvirDXY6UDJI2vijQ1s0Dmn9RHsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'database.yml'+intext:'Database+YAML+Configuration'
+| 108  | site:zomato.com inurl:'database.yml' intext:'Database YAML Configuration' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27database.yml%27%2Bintext:%27Database%2BYAML%2BConfiguration%27&amp;q=EgRv3xp6GKT99rkGIjBfD6kt_9_z1cP8ooM2Q9gS6ngrDT5hoRN2gP30wiAGD8pDWqfgMDEnHQUSMWsaEdgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'application.properties'+intext:'Application+Properties'
+| 109  | site:zomato.com inurl:'application.properties' intext:'Application Properties' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27application.properties%27%2Bintext:%27Application%2BProperties%27&amp;q=EgRv3xp6GKX99rkGIjBgmH89GqEBvNzWY21RfjaW9hayYt-02ElkwrIVRSBAZOhkuE32s0-HD1UmO9II4lYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'debug.log'+intext:'Debug+Log'
+| 110  | site:zomato.com inurl:'debug.log' intext:'Debug Log' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27debug.log%27%2Bintext:%27Debug%2BLog%27&amp;q=EgRv3xp6GKf99rkGIjBt6CRa48ynq9I7z9NwiGRK5WprRw5d2W7lpB2RDwtmS4RNKdIt_-D_tJ1WmihOejsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'admin/'+intext:'Admin+Panel'
+| 111  | site:zomato.com inurl:'admin/' intext:'Admin Panel' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27admin/%27%2Bintext:%27Admin%2BPanel%27&amp;q=EgRv3xp6GKj99rkGIjAHxRlrQoLJau5kn3Ka_iR6gOT3XyuVxVpkrkyCV4n8_HW4G05Z73vuPPADmSXh1zgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'cgi-bin/'+intext:'CGI+Directory'
+| 112  | site:zomato.com inurl:'cgi-bin/' intext:'CGI Directory' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27cgi-bin/%27%2Bintext:%27CGI%2BDirectory%27&amp;q=EgRv3xp6GKr99rkGIjBs0cTCXB7zuHHahUS0nqBByeUa5fkzNvnVT31hgZ2aqz6fYEhTrWuYwY_5elVCi88yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'api-docs'+intext:'API+Documentation'
+| 113  | site:zomato.com inurl:'api-docs' intext:'API Documentation' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27api-docs%27%2Bintext:%27API%2BDocumentation%27&amp;q=EgRv3xp6GKv99rkGIjDL_yZ54qdg0Ozksy3rf1cV-24mCzfdzqtB3lz31BeVf-nw2Q180yAZzBE5X8U4ZyMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'test/'+intext:'Testing+Environment'
+| 114  | site:zomato.com inurl:'test/' intext:'Testing Environment' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27test/%27%2Bintext:%27Testing%2BEnvironment%27&amp;q=EgRv3xp6GK399rkGIjDepP6K_l_-2g7TFuwvrpnR0-EthLuZOUgd9HXm2ExKigMDsmGeGEiZST8Q742ZRWAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'staging/'+intext:'Staging+Environment'
+| 115  | site:zomato.com inurl:'staging/' intext:'Staging Environment' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27staging/%27%2Bintext:%27Staging%2BEnvironment%27&amp;q=EgRv3xp6GK_99rkGIjBpAHUSilrmJRD67QtjKvxtT2Mq0CkUDzJTbau-uKzCaAalmrU8Y6otJVdblU3WyDIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'dev/'+intext:'Development+Environment'
+| 116  | site:zomato.com inurl:'dev/' intext:'Development Environment' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27dev/%27%2Bintext:%27Development%2BEnvironment%27&amp;q=EgRv3xp6GLD99rkGIjAmsnGfXiDhVlNJ92m5bco6F909jiDrmQDJFacsy6_l4dYVSVnXZIuk8-wy5MdfgWsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'auth/'+intext:'Authentication+Service'
+| 117  | site:zomato.com inurl:'auth/' intext:'Authentication Service' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27auth/%27%2Bintext:%27Authentication%2BService%27&amp;q=EgRv3xp6GLL99rkGIjDfo54LG6KoO5w1VWxIH8bI3lW7lnPLZJHhamFEZoTC9JIxxewwa5Co4w4EnU9ZE_EyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'account/'+intext:'Account+Management'
+| 118  | site:zomato.com inurl:'account/' intext:'Account Management' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27account/%27%2Bintext:%27Account%2BManagement%27&amp;q=EgRv3xp6GLT99rkGIjD2aQl-2P4jJrr0Iu14-UOrTP3ywwe-ntKiEtGxhTTFHgRUsYvEDf4rgm0eYydhNFAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'password_reset/'+intext:'Password+Reset'
+| 119  | site:zomato.com inurl:'password_reset/' intext:'Password Reset' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27password_reset/%27%2Bintext:%27Password%2BReset%27&amp;q=EgRv3xp6GLX99rkGIjBd8DFhek_pxjKHOLj-fKVVzR-ZBcLO6fVF1BzNc67Nf2WhKhb-ZANQNmfTPB2ZaIoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'backup.tar.gz'+intext:'Backup+Archive'
+| 120  | site:zomato.com inurl:'backup.tar.gz' intext:'Backup Archive' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27backup.tar.gz%27%2Bintext:%27Backup%2BArchive%27&amp;q=EgRv3xp6GLf99rkGIjDTBtlqL136-ExQntQ7Pv7VEpbNmH6VcrcsZ0EFc4wPG1DSovf0Vr4Cwd66gVyh6rUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'database_backup.sql'+intext:'Database+Backup+SQL'
+| 121  | site:zomato.com inurl:'database_backup.sql' intext:'Database Backup SQL' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27database_backup.sql%27%2Bintext:%27Database%2BBackup%2BSQL%27&amp;q=EgRv3xp6GLj99rkGIjDjuatj5KMYVZ3jdXaemu-qQAX35zoLGlUPkONja3eO2lbJTf6vzl4zBlLSX2TBwTkyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'access.log'+intext:'Access+Log'
+| 122  | site:zomato.com inurl:'access.log' intext:'Access Log' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27access.log%27%2Bintext:%27Access%2BLog%27&amp;q=EgRv3xp6GLr99rkGIjCuxwOI2wbQwom_LTWABnJkylHx8m_C9sOBBiTcv7EK1DU0StXaJwVJVHpoqMz7sJYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'nginx_error.log'+intext:'Nginx+Error+Log'
+| 123  | site:zomato.com inurl:'nginx_error.log' intext:'Nginx Error Log' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27nginx_error.log%27%2Bintext:%27Nginx%2BError%2BLog%27&amp;q=EgRv3xp6GLv99rkGIjCE0Tvb_SPK3z75w_GJQgviQAjWie78BAfZgyFkHAzbYT8ZNZ-Chgpq29eDLrLp02EyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'index.html'+intext:'Welcome+Page'
+| 124  | site:zomato.com inurl:'index.html' intext:'Welcome Page' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27index.html%27%2Bintext:%27Welcome%2BPage%27&amp;q=EgRv3xp6GL399rkGIjD8UvtUU45F-lDJlEzT-eGtOEE2XWyhWhFrxLrVbD4SAPcvbB_q7qDbTxjxdgqxnjIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'wordpress'+intext:'WordPress+Site'
+| 125  | site:zomato.com inurl:'wordpress' intext:'WordPress Site' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27wordpress%27%2Bintext:%27WordPress%2BSite%27&amp;q=EgRv3xp6GL799rkGIjBv0MHYkl17BlK1TYk09OON-al2fzZFpxBLfNQOGJNx0_mUI7j7xMR7gymD0YM7fwMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'joomla'+intext:'Joomla+Site'
+| 126  | site:zomato.com inurl:'joomla' intext:'Joomla Site' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27joomla%27%2Bintext:%27Joomla%2BSite%27&amp;q=EgRv3xp6GMD99rkGIjARO9audS_5fGAzSuHcxdHtFdpIuVTC1bkNrYjrbwTapO9Sq90Wr3umhZmooLw8NNIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'drupal'+intext:'Drupal+Site'
+| 127  | site:zomato.com inurl:'drupal' intext:'Drupal Site' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27drupal%27%2Bintext:%27Drupal%2BSite%27&amp;q=EgRv3xp6GML99rkGIjC-t5-4Lz9MWqv2l1UBPqtXtYozgOErqtJkQy5ImIqs_fzV074UyyYDA6OmlVelw4EyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'powered+by'+intext:'Technology+Disclosure'
+| 128  | site:zomato.com inurl:'powered by' intext:'Technology Disclosure' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27powered%2Bby%27%2Bintext:%27Technology%2BDisclosure%27&amp;q=EgRv3xp6GMP99rkGIjAzTqfGQR1WFCbHBdU3eHHJqkDEVTrCjkT5DA7dtkGlZn2Pmk-CTFgFlopUELZ1BpsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'robots.txt'+intext:'Disallowed+Paths'
+| 129  | site:zomato.com inurl:'robots.txt' intext:'Disallowed Paths' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27robots.txt%27%2Bintext:%27Disallowed%2BPaths%27&amp;q=EgRv3xp6GMX99rkGIjA_swogxjtUa5qWiR30QU1DPw12SmEIRNQ5J04Mzzh1mv6Gp9rkgdYw_Ge3yBEZnsIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'sitemap.xml'+intext:'Site+Map'
+| 130  | site:zomato.com inurl:'sitemap.xml' intext:'Site Map' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27sitemap.xml%27%2Bintext:%27Site%2BMap%27&amp;q=EgRv3xp6GMb99rkGIjBhsx5AjjeB01I6qDQmim2cVOgyWyITo_H1rMFI5ciLZRtmDhTLElq05gvUCHTyiHsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'debug.php'+intext:'Debug+PHP'
+| 131  | site:zomato.com inurl:'debug.php' intext:'Debug PHP' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27debug.php%27%2Bintext:%27Debug%2BPHP%27&amp;q=EgRv3xp6GMj99rkGIjAsGBcCMsF5XWAbOBf1KQxBvOWaL3fB2ww3p1LES7FPs_syMgrqmtwGan1z56tN_GUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'dump.rdb'+intext:'Redis+Database+Dump'
+| 132  | site:zomato.com inurl:'dump.rdb' intext:'Redis Database Dump' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27dump.rdb%27%2Bintext:%27Redis%2BDatabase%2BDump%27&amp;q=EgRv3xp6GMr99rkGIjDdeVpIY1FMUt6VZ47DYm0bNiYE15AUzqBJiLC8OlY14wtZltmqpRc4VyujyVQDJz8yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'elasticsearch'+intext:'Open+Elasticsearch'
+| 133  | site:zomato.com inurl:'elasticsearch' intext:'Open Elasticsearch' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27elasticsearch%27%2Bintext:%27Open%2BElasticsearch%27&amp;q=EgRv3xp6GMv99rkGIjCA5xg7D8D2HfMnna_t_WABIKpeJX81GFD1Xj5vCagwTrtbCD5nohr1WRtg4g5H4eUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'mongo'+intext:'MongoDB+Database'
+| 134  | site:zomato.com inurl:'mongo' intext:'MongoDB Database' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27mongo%27%2Bintext:%27MongoDB%2BDatabase%27&amp;q=EgRv3xp6GM399rkGIjCtq25Z8b4qT1OpJldsIpV-jXeT06-9tNftScYIZq9-sQX5VghCdACEhqZfywTe7KwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'memcached'+intext:'Memcached+Server'
+| 135  | site:zomato.com inurl:'memcached' intext:'Memcached Server' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27memcached%27%2Bintext:%27Memcached%2BServer%27&amp;q=EgRv3xp6GM_99rkGIjDKSDnN2bw0G7FnhZgSnaa0cVPRBHscYsRryEwiXcuz9QXo4TFH2nvyT_fH8phSoVcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'logs'+intext:'Application+Logs'
+| 136  | site:zomato.com inurl:'logs' intext:'Application Logs' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27logs%27%2Bintext:%27Application%2BLogs%27&amp;q=EgRv3xp6GND99rkGIjCXgOnJr9dc6sdVujHBn4mmGFVWcZXhBewzQnK4-Im0mtrsUy_VaT9hmJl_y0JM7pUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'sessions'+intext:'Session+Data'
+| 137  | site:zomato.com inurl:'sessions' intext:'Session Data' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27sessions%27%2Bintext:%27Session%2BData%27&amp;q=EgRv3xp6GNL99rkGIjBo6sAQZzjUKm7834RR-QRfyBEDwP-Tr2-l_RbADeMiBFW7vetVrUa0fhtjgqkJbEYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'error_reporting(E_ALL)'+intitle:'phpinfo()'
+| 138  | site:zomato.com intext:'error_reporting(E_ALL)' intitle:'phpinfo()' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27error_reporting(E_ALL)%27%2Bintitle:%27phpinfo()%27&amp;q=EgRv3xp6GNP99rkGIjBEzC2qxdP6yhT8xAbMVxUIfe45DqY0OK7bdssS7mYoiHI4eXZP8sERTd8aim77QHIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'sql_query'+inurl:'admin.php'
+| 139  | site:zomato.com intext:'sql_query' inurl:'admin.php' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27sql_query%27%2Binurl:%27admin.php%27&amp;q=EgRv3xp6GNX99rkGIjBGPQmVc1SKpnCfzsp_SYKceueO63JsecQrz0Lpc5IYQFvBtRhgK0M4Z4dqe_LxPygyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'config.inc.php'+OR+inurl:'config/config.ini.php'+OR+inurl:'config/config.php'
+| 140  | site:zomato.com inurl:'config.inc.php' OR inurl:'config/config.ini.php' OR inurl:'config/config.php' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27config.inc.php%27%2BOR%2Binurl:%27config/config.ini.php%27%2BOR%2Binurl:%27config/config.php%27&amp;q=EgRv3xp6GNb99rkGIjCB8sAFYbdsgraMnToCkBFsYGIx7olrPzAwuOkNa0WjxDB7srqnWGdhZr7C23MLmTMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'index+of'+intext:'wp-config.php'
+| 141  | site:zomato.com intitle:'index of' intext:'wp-config.php' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27index%2Bof%27%2Bintext:%27wp-config.php%27&amp;q=EgRv3xp6GNj99rkGIjCmTYf1ecLvArp2qyEQMM5gtM5MEOTXbHBt-3abX9wKlt7_wZIAqqUYrfj70qzH240yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'upload.php'+intext:'File+Upload'
+| 142  | site:zomato.com inurl:'upload.php' intext:'File Upload' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27upload.php%27%2Bintext:%27File%2BUpload%27&amp;q=EgRv3xp6GNn99rkGIjAiPAfOGDyzgaC5yt6FH8M7S7ETwugrXsaH9kD5BaPMOxEknZAa_PlnU9OqUYpyj6AyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'error_log'+intext:'PHP+Error+logs'
+| 143  | site:zomato.com inurl:'error_log' intext:'PHP Error logs' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27error_log%27%2Bintext:%27PHP%2BError%2Blogs%27&amp;q=EgRv3xp6GNv99rkGIjAkfcXXBVhBWdQth9O50mx08flSMEZLx0jnHkFSxL3v3Iru3eJjv8MokOlIqI5KNS0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'login.php'+intext:'Login+Page'
+| 144  | site:zomato.com inurl:'login.php' intext:'Login Page' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27login.php%27%2Bintext:%27Login%2BPage%27&amp;q=EgRv3xp6GNz99rkGIjC8kRkv52_7faab82wZ2qRWGFYQQHaZliRosi7-mifYdqeU0DrwTd-Z64fMvrKeMHUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'login.html'+intext:'Admin+Login'
+| 145  | site:zomato.com inurl:'login.html' intext:'Admin Login' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27login.html%27%2Bintext:%27Admin%2BLogin%27&amp;q=EgRv3xp6GN799rkGIjClbs-VJOarky2KjzP16EBNayHoap_MgWWkyzaFIIfLobVjfcuHhwMAyQ_wrxz2lDQyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'API_KEY'
+| 146  | site:zomato.com intext:'API_KEY'                   | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27API_KEY%27&amp;q=EgRv3xp6GOD99rkGIjCvGis5WFLPdsBNKO-DHpz8zub0_Gluy6uS5XbwbQVc2HxO3SIIDrZ1zOgKBClNyikyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'api/v1'
+| 147  | site:zomato.com inurl:'api/v1'                     | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27api/v1%27&amp;q=EgRv3xp6GOH99rkGIjBuWUOKzaQ9cc_0lnk0Q1pTNJNkwC5T1rKJtPklHhBhxetSJ1tmxpHRYHOP0gik7aYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'swagger.json'
+| 148  | site:zomato.com inurl:'swagger.json'               | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27swagger.json%27&amp;q=EgRv3xp6GOP99rkGIjCYl1MuTmM4hzsan02KiUVa1bwhC2hb3aUl7D8Mn1CFQ50fWo-xcFQjwxfN4BgBqtwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/graphql'
+| 149  | site:zomato.com inurl:'/graphql'                   | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/graphql%27&amp;q=EgRv3xp6GOT99rkGIjAd3fBFxc7v-tksHk6mtM7aetEhfltQimh_sBuBrKEPwUl2472jc9pcKpZeyoKYfUsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/api-docs'
+| 150  | site:zomato.com inurl:'/api-docs'                  | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/api-docs%27&amp;q=EgRv3xp6GOb99rkGIjCQkxs_i7VuiNy6r3bl1KSUoor3rUIkhioA6I35nSRZpHN0AH6PxUxdnVnT_0R84QAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/api/v2'
+| 151  | site:zomato.com inurl:'/api/v2'                    | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/api/v2%27&amp;q=EgRv3xp6GOf99rkGIjAj-CdLfxdEm4XAkmmZZ_ltibOOMk2IHSx4dH3v_b6ijhEbgcFjpj6qxppsLTplDpoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/api/v3'
+| 152  | site:zomato.com inurl:'/api/v3'                    | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/api/v3%27&amp;q=EgRv3xp6GOn99rkGIjB_ECJ3J6QMGqCAixmjBIw5LwKiCRnSr3iPRu3ZPoXT5M3XsCN8TGottv74nT-x-vEyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'-----BEGIN+PRIVATE+KEY-----'
+| 153  | site:zomato.com intext:'-----BEGIN PRIVATE KEY-----' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27-----BEGIN%2BPRIVATE%2BKEY-----%27&amp;q=EgRv3xp6GOv99rkGIjCVP8a0pNjuIPK9FqT1l9KPdu1_1xqGYAQ7WsotZl7R1uUTB20VNeIMStYmNoTH2lQyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'client_secret'
+| 154  | site:zomato.com intext:'client_secret'             | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27client_secret%27&amp;q=EgRv3xp6GOz99rkGIjA12_KHwhKZN_nK-4q3HwxNG3CHGIRejUP8CaWliffU1OPp8UG8gyRFrcmqcw8XOq8yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'password'+filetype:env
+| 155  | site:zomato.com intext:'password' filetype:env     | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27password%27%2Bfiletype:env&amp;q=EgRv3xp6GO799rkGIjAC9DdVzxHpYh4WpinE6WIr-93b6rdzY1eax2B5iLF_OHNF8XcVly1VdUG4QeH5e18yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'apikey'+filetype:env
+| 156  | site:zomato.com intext:'apikey' filetype:env       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27apikey%27%2Bfiletype:env&amp;q=EgRv3xp6GO_99rkGIjDuhKyiDF8KuUe2m3Sacq4nDpfRVnaztF-has81l9-plWl_0ur0TwwziFoC8zEw-5cyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'username'+filetype:env
+| 157  | site:zomato.com intext:'username' filetype:env     | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27username%27%2Bfiletype:env&amp;q=EgRv3xp6GPH99rkGIjD37dMww_rxdZiRUP2Fli_0RpKRYQmcNH0CJKcS0uqv4th-OPyeFFaznYZPxWBsolMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'jdbc.password'
+| 158  | site:zomato.com intext:'jdbc.password'             | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27jdbc.password%27&amp;q=EgRv3xp6GPL99rkGIjBtFrHOX4JvTZ-m3SScdTmgceLujtYh0ofINqdd-EAa-eyeTVOyzjr6UtZ3AtO6siAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'oauth.token'
+| 159  | site:zomato.com intext:'oauth.token'               | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27oauth.token%27&amp;q=EgRv3xp6GPT99rkGIjChuBWd2inrxz0xwI5txihtY0sVbrhN_mKi_k19gvb2JpUuv5PE2QdzNVrv6zsiLf0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:download.php?file=
+| 160  | site:zomato.com inurl:download.php?file=           | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:download.php%3Ffile%3D&amp;q=EgRv3xp6GPb99rkGIjAfuT5PoG69H2iP9KHpv86ydZ8zdimPXMOArOOelJpgAVoeVAO7yKr9fI4Ob5xjS3QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Index+of+/'+inurl:download.php
+| 161  | site:zomato.com intitle:'Index of /' inurl:download.php | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Index%2Bof%2B/%27%2Binurl:download.php&amp;q=EgRv3xp6GPf99rkGIjC4ZxKLQ3BXOFZ_Nt_OA0R5S75hnO9YmrsVMZ-u_OzJdIqL0aAH90NpQJXVHKSPKjkyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Download'+inurl:download.php
+| 162  | site:zomato.com intitle:'Download' inurl:download.php | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Download%27%2Binurl:download.php&amp;q=EgRv3xp6GPn99rkGIjC8plHZXMf1tPjLGZ2VfwLrd2b040mIAANrqD1Gcb_ZTHRUKLtjjxZjKPnFO81PbK0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'File+Download'+inurl:download.php
+| 163  | site:zomato.com intitle:'File Download' inurl:download.php | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27File%2BDownload%27%2Binurl:download.php&amp;q=EgRv3xp6GPv99rkGIjChinyMrBV8dl_ev8lVn0F_oFr3w6UdeYPx1J_0-G1aEa3Ix6pe25C5od3ih0SvXkUyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Download+Center'+inurl:download.php
+| 164  | site:zomato.com intitle:'Download Center' inurl:download.php | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Download%2BCenter%27%2Binurl:download.php&amp;q=EgRv3xp6GPz99rkGIjDypfMMyezvAOr0gKNjTJphL9p6z0bd1tLx8GpwMyN5UuX9Ie1g1bqQjbX7lNip07QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:download.php?filename=
+| 165  | site:zomato.com inurl:download.php?filename=       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:download.php%3Ffilename%3D&amp;q=EgRv3xp6GP399rkGIjAykmYCaWPUI-LMAkg_tFvHTJP7NgB0VfzKgbUb1uOhucUI6c1bQH2oP96PdeMY7eMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:download.php?resource=
+| 166  | site:zomato.com inurl:download.php?resource=       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:download.php%3Fresource%3D&amp;q=EgRv3xp6GP_99rkGIjDo-9RnbwqAqIjQ2c7NIuCjqwnZsO-gHlWQPJbrvnPxs5MNhJ6H8jT1B7LdSseAi1YyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:download.php?document=
+| 167  | site:zomato.com inurl:download.php?document=       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:download.php%3Fdocument%3D&amp;q=EgRv3xp6GIH-9rkGIjCDvwOUAGH4cU0555wbnlK5qI51flor3Ib2786ih3BKeJn2oeRTkMc7BvxQZqJgV9gyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'index+of'+'backup'
+| 168  | site:zomato.com intitle:'index of' 'backup'        | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27index%2Bof%27%2B%27backup%27&amp;q=EgRv3xp6GIP-9rkGIjChzvkq10HFoQqp3U0P1LeCdyRKBTDQz6g1TMYlSi53Gqy00EiRvNdj9brdN51LRGcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'index+of'+'backups'
+| 169  | site:zomato.com intitle:'index of' 'backups'       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27index%2Bof%27%2B%27backups%27&amp;q=EgRv3xp6GIT-9rkGIjBDZyX1xNXw3y-j6XwvraQjsNrT1QrietsSf2f_UvYHT6ylFTZkT7IZFHIbjPIa26wyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/backup/'
+| 170  | site:zomato.com inurl:'/backup/'                   | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/backup/%27&amp;q=EgRv3xp6GIb-9rkGIjAxiXTQVMjyDjE2EhtmM-G4hQU3g8nfwDuNdHRVQqGuATvchFqnFqWmGohndIClKJEyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'/backup'+filetype:zip
+| 171  | site:zomato.com inurl:'/backup' filetype:zip       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27/backup%27%2Bfiletype:zip&amp;q=EgRv3xp6GIj-9rkGIjBNbtHSA7CsOSsPcAQOnNX3CvQj_7VTq_rTf2rCARGMT6JbkQQVcvvE1SVo1JVD6NMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'backup.sql'
+| 172  | site:zomato.com intext:'backup.sql'                | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27backup.sql%27&amp;q=EgRv3xp6GIn-9rkGIjDXd3pn37mUUIf02SIo5BKPHhOgUwSUnoFSerf9PgfxJiAiUpeIUBNfyn1-QzFNY0oyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'backup.zip'
+| 173  | site:zomato.com intext:'backup.zip'                | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27backup.zip%27&amp;q=EgRv3xp6GIv-9rkGIjAoKINvq2m7F-PChHBRtGW14gPVmmFIPhNPaaf_zpjl3WUKbsBrlwzoqqJGbqUbyiMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Login'+inurl:'admin'
+| 174  | site:zomato.com intitle:'Login' inurl:'admin'      | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Login%27%2Binurl:%27admin%27&amp;q=EgRv3xp6GI3-9rkGIjCYXmgD2VMkyfXp6AU-SB1FXZep1m5Uj3UYEqvuDCammmQH_cmvVM2wXwN9WYTy014yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Sign+In'+inurl:'admin'
+| 175  | site:zomato.com intitle:'Sign In' inurl:'admin'    | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Sign%2BIn%27%2Binurl:%27admin%27&amp;q=EgRv3xp6GI7-9rkGIjCHfFm6ZYAbXweAmse7L1XgsjSui21C8CusOCjklYYzKoeP-Yil20XU7RTsH84SfI0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Member+Login'
+| 176  | site:zomato.com intitle:'Member Login'             | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Member%2BLogin%27&amp;q=EgRv3xp6GJD-9rkGIjAPDBSbx7cNcthDh-c1GfWNfLy42pBUWemI4mH-GqEwjGx7L_BPsDLYGKOuXqRZcWQyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'User+Login'
+| 177  | site:zomato.com intitle:'User Login'               | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27User%2BLogin%27&amp;q=EgRv3xp6GJL-9rkGIjARz3mV2FjMaMg8gvPAX0IqYO9w88jFyFlAkXkpaqQanFP0doOAhBkuAODA7v4DqLEyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intitle:'Staff+Login'
+| 178  | site:zomato.com intitle:'Staff Login'              | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintitle:%27Staff%2BLogin%27&amp;q=EgRv3xp6GJX-9rkGIjB89vh9Sr0WFkBjG_OHyw4BhzPKG3jbAeML0YfQzK1b5lgZVVyHrKKhpfGuCmuLnpoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:index.php?id=
+| 179  | site:zomato.com inurl:index.php?id=                | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:index.php%3Fid%3D&amp;q=EgRv3xp6GJj-9rkGIjCw1cVzaLAVo4rnh3liVaBxUfB31pBsBPHEcA6sl7-LSmXAnHkApU7Bix8B8XsLkbMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:article.php?id=
+| 180  | site:zomato.com inurl:article.php?id=              | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:article.php%3Fid%3D&amp;q=EgRv3xp6GJz-9rkGIjBL4A5-yGbRn4B4ItBh7lj4Leq-E-8qwbbM1ZtMjgXgbAuwfsFQvavpfHC4VquaidMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:gallery.php?id=
+| 181  | site:zomato.com inurl:gallery.php?id=              | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:gallery.php%3Fid%3D&amp;q=EgRv3xp6GJ7-9rkGIjAcVHCRqIBK8KB1yefa9FoHb4WkQsWG9T-biacyRc6J7S6UXu84GaxDm9zbFHQosMAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:news.php?id=
+| 182  | site:zomato.com inurl:news.php?id=                 | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:news.php%3Fid%3D&amp;q=EgRv3xp6GKH-9rkGIjAb75V64h1jlAr6fEhw4aDdLRzNSXPSbGr54rpsTq5XZwuulcpixfgvBAM0j0DsmNYyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:product.php?id=
+| 183  | site:zomato.com inurl:product.php?id=              | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:product.php%3Fid%3D&amp;q=EgRv3xp6GKX-9rkGIjD2_1E2kgrAVW6XMK_ufI4Sx7S49r9vF0B-taAABr8_BMLeSrpGF8Btikkp5B3R65gyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:category.php?id=
+| 184  | site:zomato.com inurl:category.php?id=             | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:category.php%3Fid%3D&amp;q=EgRv3xp6GKj-9rkGIjBs-PgK_yJXXuqZzMMJGdOFKRqA97aej443ij1KhlzWUht47J8aHSV4EtIGLLGOPpAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:content.php?id=
+| 185  | site:zomato.com inurl:content.php?id=              | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:content.php%3Fid%3D&amp;q=EgRv3xp6GKv-9rkGIjAllXJ6eoExwr03yz7tymAcxHcArxXECGDHGmUhnipVPdIzv8_r4RwVWpEOL7z8w2MyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:download.php?id=
+| 186  | site:zomato.com inurl:download.php?id=             | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:download.php%3Fid%3D&amp;q=EgRv3xp6GK_-9rkGIjDXEppyBdNBskkR2REt_py1_MpeHYF3Qe6dXoQ50V1-XG0LbIAHzujvXh1rZZ2FzNgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:/search?query=<script>alert('XSS')</script>
+| 187  | site:zomato.com inurl:/search?query=<script>alert('XSS')</script> | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:/login?username=<script>alert('XSS')</script>
+| 188  | site:zomato.com inurl:/login?username=<script>alert('XSS')</script> | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:/register?fullname=<script>alert('XSS')</script>
+| 189  | site:zomato.com inurl:/register?fullname=<script>alert('XSS')</script> | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:/profile?username=<script>alert('XSS')</script>
+| 190  | site:zomato.com inurl:/profile?username=<script>alert('XSS')</script> | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:/user?name=<script>alert('XSS')</script>
+| 191  | site:zomato.com inurl:/user?name=<script>alert('XSS')</script> | No results found or Google blocked the query.      |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:doc+OR+filetype:docx+OR+filetype:ppt+OR+filetype:pptx+OR+filetype:xls+OR+filetype:xlsx+OR+filetype:pdf
+| 192  | site:zomato.com filetype:doc OR filetype:docx OR filetype:ppt OR filetype:pptx OR filetype:xls OR filetype:xlsx OR filetype:pdf | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:doc%2BOR%2Bfiletype:docx%2BOR%2Bfiletype:ppt%2BOR%2Bfiletype:pptx%2BOR%2Bfiletype:xls%2BOR%2Bfiletype:xlsx%2BOR%2Bfiletype:pdf&amp;q=EgRv3xp6GLz-9rkGIjAHCo7IvoDuWQDOQ0Fejs2dEnRAzZCrc6WXTgROVd-l8A7RO-OlwK0BrivtiF09df8yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:conf+inurl:config.php
+| 193  | site:zomato.com filetype:conf inurl:config.php     | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:conf%2Binurl:config.php&amp;q=EgRv3xp6GL7-9rkGIjDDfKi2aFIdTq2TBJjekcYaUph9qdH6tHZMx0oTGe3JJXWF_qTcEf5vLutzHShodN8yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:xml+inurl:connections.xml
+| 194  | site:zomato.com filetype:xml inurl:connections.xml | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:xml%2Binurl:connections.xml&amp;q=EgRv3xp6GL_-9rkGIjAoWrU-WwCzbxXOZiWwfHePUoumjg6oxm8F8X0iBPSRZA5CKQtj7GkXXW-8_DIGVTcyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:env+intext:'DATABASE_PASSWORD'
+| 195  | site:zomato.com filetype:env intext:'DATABASE_PASSWORD' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:env%2Bintext:%27DATABASE_PASSWORD%27&amp;q=EgRv3xp6GMH-9rkGIjBBUjggX3UJA6dRn8VsNtqor-qqkN3SpPjsL3iP_ebFvGx6DK6pRhd7jQTOEPiQMX0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:ini+intext:'AWS_SECRET_ACCESS_KEY'
+| 196  | site:zomato.com filetype:ini intext:'AWS_SECRET_ACCESS_KEY' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:ini%2Bintext:%27AWS_SECRET_ACCESS_KEY%27&amp;q=EgRv3xp6GMP-9rkGIjB-YxX_YVTlVubVzGJF3uDdnbqVMnzi5BXAxMN2Ms6K3Qo0GTsHTbCnP_5H1rNqockyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:yaml+inurl:elasticsearch.yml
+| 197  | site:zomato.com filetype:yaml inurl:elasticsearch.yml | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:yaml%2Binurl:elasticsearch.yml&amp;q=EgRv3xp6GMT-9rkGIjBcSYOlO6A5QDAe3c9AbaRV80OyZbKLeOO7e3Fl3SdDlMO2YeR9j66MNXlK6TIJ6GIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+inurl:logs/access.log
+| 198  | site:zomato.com filetype:log inurl:logs/access.log | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Binurl:logs/access.log&amp;q=EgRv3xp6GMb-9rkGIjA8o5Giq8hs2CkuyxHWv698QCdGYLxnykh23QoV1rG8153tAjPUN6uC_C2eaG6OwCoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+inurl:logs/error.log
+| 199  | site:zomato.com filetype:log inurl:logs/error.log  | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Binurl:logs/error.log&amp;q=EgRv3xp6GMn-9rkGIjCcHznukOtPrHdDgHIIhZVEGT854GQPq_AIv5K0Tz4019mB83X-ZN582QwRnjPWkboyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+intext:'PHP+Fatal+error'
+| 200  | site:zomato.com filetype:log intext:'PHP Fatal error' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Bintext:%27PHP%2BFatal%2Berror%27&amp;q=EgRv3xp6GM3-9rkGIjCBPR4XeldPpQgB_UQzwA_ir_SscrwrryjIL0AZQHIrsl8NQ-i5MIAJ5_xVSIuuw6QyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+intext:'SQL+syntax+error'
+| 201  | site:zomato.com filetype:log intext:'SQL syntax error' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Bintext:%27SQL%2Bsyntax%2Berror%27&amp;q=EgRv3xp6GND-9rkGIjAL92cHq9nBt_0-FnA-yVtZoc8kY5Kj7D_wRKLNT5AxeCL5yt7iZ32huCClv-fYVHIyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+intext:'application.log'
+| 202  | site:zomato.com filetype:log intext:'application.log' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Bintext:%27application.log%27&amp;q=EgRv3xp6GNT-9rkGIjBLgj3mXH7bYMLFdQZJb1iY-zzOh_b-33ZQ4s1nwpnnfuASUIYbELVUv-js8cHSWcoyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:log+intext:'debug.log'
+| 203  | site:zomato.com filetype:log intext:'debug.log'    | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:log%2Bintext:%27debug.log%27&amp;q=EgRv3xp6GNj-9rkGIjAWyR6jsIgGnGPNys-fbhV-F8zfljCXFGAEylyI8VCCKdXESk6WyVK1QdDwZxBMfnwyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'Index+of+/config'
+| 204  | site:zomato.com intext:'Index of /config'          | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27Index%2Bof%2B/config%27&amp;q=EgRv3xp6GNv-9rkGIjAtPnwAkYxwlg8yAIR-F6TV6eoRM224nHIkUWyvByztbE4Ilkv8-713QU7k8vqi6VsyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+intext:'Index+of+/login'
+| 205  | site:zomato.com intext:'Index of /login'           | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bintext:%27Index%2Bof%2B/login%27&amp;q=EgRv3xp6GN_-9rkGIjArRwCd8_z43qQKnncjxtEXMrsxBmM9cMUX-qFOE8McPFPEy2H1OzXOyn9mpFy33oMyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+inurl:'phpinfo.php'
+| 206  | site:zomato.com inurl:'phpinfo.php'                | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Binurl:%27phpinfo.php%27&amp;q=EgRv3xp6GOL-9rkGIjCfAWBSrn7DBt1evUqGgl16v83FLBvtDzZOGxxnuRJlLSUvpEK6-co0-DEYUnHQtk0yAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:pem+intext:'PRIVATE+KEY'
+| 207  | site:zomato.com filetype:pem intext:'PRIVATE KEY'  | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:pem%2Bintext:%27PRIVATE%2BKEY%27&amp;q=EgRv3xp6GOb-9rkGIjDUwSOVHEOCWThJLtfo7rsm4XkNf2HokUgPlnx2UncOet9AFFUzrWclcX6351uozkgyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:sql+intext:'username+password'
+| 208  | site:zomato.com filetype:sql intext:'username password' | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:sql%2Bintext:%27username%2Bpassword%27&amp;q=EgRv3xp6GOn-9rkGIjCX0rJvqhrtJP37XMatKugzzoZPiLx9yTn27zeiAgfDpe-ygHNX1aq8z_mlbs09OJAyAXJaAUM">here</A>.  |
+Querying: https://www.google.com/search?q=site:zomato.com+filetype:bak+intext:'backup'
+| 209  | site:zomato.com filetype:bak intext:'backup'       | https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite:zomato.com%2Bfiletype:bak%2Bintext:%27backup%27&amp;q=EgRv3xp6GOz-9rkGIjDXVMNIl3znD95NhZufbfFzhuVTxjLGcQcXS-bqGsPzxaTkKz7JOu0pv-_HbQ-eWX8yAXJaAUM">here</A>.  |
+
+Google Dork Enumeration Completed.
+

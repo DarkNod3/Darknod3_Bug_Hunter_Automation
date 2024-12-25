@@ -1,0 +1,47 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-24 03:20 EST
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for google.com (142.250.193.14)
+Host is up (5.9s latency).
+Other addresses for google.com (not scanned): 2404:6800:4002:819::200e
+rDNS record for 142.250.193.14: del11s14-in-f14.1e100.net
+Not shown: 42919 filtered tcp ports (admin-prohibited), 22614 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+|_http-server-header: gws
+443/tcp open  tcpwrapped
+| tls-nextprotoneg: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+|_http-server-header: gws
+| ssl-cert: Subject: commonName=*.google.com
+| Subject Alternative Name: DNS:*.google.com, DNS:*.appengine.google.com, DNS:*.bdn.dev, DNS:*.origin-test.bdn.dev, DNS:*.cloud.google.com, DNS:*.crowdsource.google.com, DNS:*.datacompute.google.com, DNS:*.google.ca, DNS:*.google.cl, DNS:*.google.co.in, DNS:*.google.co.jp, DNS:*.google.co.uk, DNS:*.google.com.ar, DNS:*.google.com.au, DNS:*.google.com.br, DNS:*.google.com.co, DNS:*.google.com.mx, DNS:*.google.com.tr, DNS:*.google.com.vn, DNS:*.google.de, DNS:*.google.es, DNS:*.google.fr, DNS:*.google.hu, DNS:*.google.it, DNS:*.google.nl, DNS:*.google.pl, DNS:*.google.pt, DNS:*.googleapis.cn, DNS:*.googlevideo.com, DNS:*.gstatic.cn, DNS:*.gstatic-cn.com, DNS:googlecnapps.cn, DNS:*.googlecnapps.cn, DNS:googleapps-cn.com, DNS:*.googleapps-cn.com, DNS:gkecnapps.cn, DNS:*.gkecnapps.cn, DNS:googledownloads.cn, DNS:*.googledownloads.cn, DNS:recaptcha.net.cn, DNS:*.recaptcha.net.cn, DNS:recaptcha-cn.net, DNS:*.recaptcha-cn.net, DNS:widevine.cn, DNS:*.widevine.cn, DNS:ampproject.org.cn, DNS:*.ampproject.org.cn, DNS:ampproject.net.cn, DNS:*.ampproject.net.cn, DNS:google-analytics-cn.com, DNS:*.google-analytics-cn.com, DNS:googleadservices-cn.com, DNS:*.googleadservices-cn.com, DNS:googlevads-cn.com, DNS:*.googlevads-cn.com, DNS:googleapis-cn.com, DNS:*.googleapis-cn.com, DNS:googleoptimize-cn.com, DNS:*.googleoptimize-cn.com, DNS:doubleclick-cn.net, DNS:*.doubleclick-cn.net, DNS:*.fls.doubleclick-cn.net, DNS:*.g.doubleclick-cn.net, DNS:doubleclick.cn, DNS:*.doubleclick.cn, DNS:*.fls.doubleclick.cn, DNS:*.g.doubleclick.cn, DNS:dartsearch-cn.net, DNS:*.dartsearch-cn.net, DNS:googletraveladservices-cn.com, DNS:*.googletraveladservices-cn.com, DNS:googletagservices-cn.com, DNS:*.googletagservices-cn.com, DNS:googletagmanager-cn.com, DNS:*.googletagmanager-cn.com, DNS:googlesyndication-cn.com, DNS:*.googlesyndication-cn.com, DNS:*.safeframe.googlesyndication-cn.com, DNS:app-measurement-cn.com, DNS:*.app-measurement-cn.com, DNS:gvt1-cn.com, DNS:*.gvt1-cn.com, DNS:gvt2-cn.com, DNS:*.gvt2-cn.com, DNS:2mdn-cn.net, DNS:*.2mdn-cn.net, DNS:googleflights-cn.net, DNS:*.googleflights-cn.net, DNS:admob-cn.com, DNS:*.admob-cn.com, DNS:googlesandbox-cn.com, DNS:*.googlesandbox-cn.com, DNS:*.safenup.googlesandbox-cn.com, DNS:*.gstatic.com, DNS:*.metric.gstatic.com, DNS:*.gvt1.com, DNS:*.gcpcdn.gvt1.com, DNS:*.gvt2.com, DNS:*.gcp.gvt2.com, DNS:*.url.google.com, DNS:*.youtube-nocookie.com, DNS:*.ytimg.com, DNS:android.com, DNS:*.android.com, DNS:*.flash.android.com, DNS:g.cn, DNS:*.g.cn, DNS:g.co, DNS:*.g.co, DNS:goo.gl, DNS:www.goo.gl, DNS:google-analytics.com, DNS:*.google-analytics.com, DNS:google.com, DNS:googlecommerce.com, DNS:*.googlecommerce.com, DNS:ggpht.cn, DNS:*.ggpht.cn, DNS:urchin.com, DNS:*.urchin.com, DNS:youtu.be, DNS:youtube.com, DNS:*.youtube.com, DNS:music.youtube.com, DNS:*.music.youtube.com, DNS:youtubeeducation.com, DNS:*.youtubeeducation.com, DNS:youtubekids.com, DNS:*.youtubekids.com, DNS:yt.be, DNS:*.yt.be, DNS:android.clients.google.com, DNS:*.android.google.cn, DNS:*.chrome.google.cn, DNS:*.developers.google.cn
+| Not valid before: 2024-12-02T08:35:57
+|_Not valid after:  2025-02-24T08:35:56
+| tls-alpn: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): OpenBSD 4.X (86%)
+OS CPE: cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: OpenBSD 4.0 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 425.19 seconds

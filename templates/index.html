@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DarkNod3 Bug Hunting Tool</title>
+<style>
+    body {
+        background: #000;
+        color: #0f0;
+        font-family: "Courier New", Courier, monospace;
+        background-image: url('https://i.imgur.com/mGx9A1X.png');
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+
+    h1 {
+        color: #0f0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .form-control {
+        width: 280px;
+        padding: 10px;
+        background-color: #111;
+        color: #0f0;
+        border: 1px solid #0f0;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #111;
+        color: #0f0;
+        border: 1px solid #0f0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .output-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #process_output {
+        width: 70%;
+        padding: 10px;
+        background-color: #111;
+        color: #0f0;
+        border: 1px solid #0f0;
+        border-radius: 5px;
+        max-height: 300px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+    }
+
+    #help_output {
+        width: 30%;
+        padding: 10px;
+        background-color: #111;
+        color: #0f0;
+        border: 1px solid #0f0;
+        border-radius: 5px;
+        max-height: 300px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+    }
+
+    /* Change the placeholder text size for the 3rd input line */
+    #command_input::placeholder {
+    font-size: 18px; /* Set the size you prefer */
+    color: #0f0; /* Optional: Set the color to match the green theme */
+    opacity: 1; /* Ensure the placeholder text is fully visible */
+}
+
+</style>
+
+
+</head>
+<body>
+
+<h1>DarkNod3 Bug Hunting Tool</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tool Installation Section -->
+<div class="container mt-4">
+    
+    <div class="d-flex align-items-center">
+        <!-- Tool Selection Dropdown -->
+        <select id="tool_install" class="form-control mr-2" style="max-width: 200px;">
+            <option value="">-- Select Tool --</option>
+            <option value="subfinder">Subfinder</option>
+            <option value="httpx">HTTPX</option>
+            <option value="sublist3r_install_api">Sublist3r API Install</option>
+            <option value="nuclei">Nuclei</option>
+            <option value="sublist3r">Sublist3r</option>
+            <option value="amass">Amass</option>
+        </select>
+
+        <!-- API Provider Dropdown (Visible Only for Sublist3r API Install) -->
+        <select id="apiProvider" class="form-control mr-2" style="display: none; ">
+            <option value="">-- API Provider --</option>
+            <option value="ahrefs">Ahrefs</option>
+            <option value="alienvault">AlienVault</option>
+            <option value="censys">Censys</option>
+            <option value="fofa">FOFA</option>
+            <option value="Shodan">Shodan</option>
+            <option value="virustotal">VirusTotal</option>
+        </select>
+
+        <!-- API Key Input (Visible Only for Sublist3r API Install) -->
+        <input type="text" id="apiKey" class="form-control mr-2" placeholder="Enter API Key" style="display: none; ">
+
+        <!-- Install Button -->
+        <button id="install_button" class="btn btn-primary">Install Tool</button>
+    </div>
+
+  <!-- Column 2: Proxy Management -->
+<div>
+    <div class="proxy-controls" style="margin: 10px; padding: 10px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <button id="startProxyServer" onclick="startProxyServer()" class="proxy-button">Start Proxy Server</button>
+            <button id="stopProxyServer" onclick="stopProxyServer()" class="proxy-button" disabled>Stop Server</button>
+            <span class="status-indicator"></span>
+        </div>
+        <div id="currentIp" style="margin: 5px 0; color: #fff;">Checking IP...</div>
+        <div id="proxyStatus" style="margin: 5px 0; color: #fff;">Status: Not Connected</div>
+        <div id="countdown" style="margin: 5px 0; color: #fff;"></div>
+    </div>
+
+    <style>
+        .proxy-button {
+            padding: 8px 15px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .proxy-button:hover {
+            background: #34495e;
+        }
+
+        .proxy-button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+        }
+
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #e74c3c;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .status-indicator.active {
+            background-color: #2ecc71;
+        }
+    </style>
+</div>
+
+
+
+    <!-- Output Section -->
+    <div id="installOutput" class="mt-3 text-center"></div>
+</div>
+
+
+<!-- JavaScript for Dynamic Form Behavior -->
+<script>
+    const toolSelect = document.getElementById('tool_install');
+    const apiProviderSelect = document.getElementById('apiProvider');
+    const apiKeyInput = document.getElementById('apiKey');
+
+    // Show API provider and key input only if "Sublist3r API Install" is selected
+    toolSelect.addEventListener('change', () => {
+        if (toolSelect.value === 'sublist3r_install_api') {
+            apiProviderSelect.style.display = 'inline-block';
+            apiKeyInput.style.display = 'inline-block';
+        } else {
+            apiProviderSelect.style.display = 'none';
+            apiKeyInput.style.display = 'none';
+        }
+    });
+
+    // Form Submission Handling
+    document.getElementById('install_button').addEventListener('click', async () => {
+        const tool = toolSelect.value;
+        const apiProvider = apiProviderSelect.value;
+        const apiKey = apiKeyInput.value;
+
+        // Validate inputs
+        if (tool === 'sublist3r_install_api' && (!apiProvider || !apiKey)) {
+            alert('Please select an API provider and enter the API key.');
+            return;
+        }
+
+        // Prepare data for the backend request
+        const data = { tool, apiProvider, apiKey };
+
+        // Send POST request to backend
+        const response = await fetch('/install_tool', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
+
+        const result = await response.json();
+        const outputDiv = document.getElementById('installOutput');
+
+        // Display the result
+        if (result.status === 'success') {
+            outputDiv.innerHTML = `<div class="alert alert-success">${result.output}</div>`;
+        } else {
+            outputDiv.innerHTML = `<div class="alert alert-danger">Error: ${result.message}</div>`;
+        }
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Scan Configuration -->
+<div class="form-group">
+    <input type="text" id="target_url" class="form-control" placeholder="Enter Target URL">
+    <select id="scan_type" class="form-control">
+        <option value="">-- Select Scan Type --</option>
+        <option value="Dark_nod3_tools"> DarkNod3 Tools</option>
+        <option value="recon_scan"> Recon</option>
+        <option value="allinone_scan"> Full Auto Sacns Mode</option>
+        <option value="dorks_scan">Dorks Scanning</option>
+        <option value="subdomain_scan">Subdomain </option>
+        <option value="vuln_scan">Vulnerability Scanning</option>
+        <option value="xss_scan">XSS  Detection</option>
+        <option value="sql_scan">SQL Injection Detection</option>
+        <option value="files_scan">Directory & File Bruteforce</option>
+        <option value="file_upload_scan">File Upload Vulnerability</option>
+        <option value="csrf_scan">CSRF Detection</option>
+        <option value="open_redirect_scan">Open Redirect Detection</option>
+        <option value="idor_scan">IDOR Testing</option>
+        <option value="race_condtion_scan">Race Condition Testing</option>
+        <option value="server_missconf_scan">Server Misconfiguration Check</option>
+        <option value="Security_header_scan">Security Header Analysis</option>
+        <option value="broken_scan">Broken Authentication Testing</option>
+    </select>
+    <select id="tool_select" class="form-control">
+        <option value="">-- Select a Tool --</option>
+    </select>
+    <button id="startButton">Run Scan</button>
+    <button id="stopButton" style="display:none;">Stop Scan</button>
+    <button id="resetButton">Reset</button> <!-- Reset Button added here -->
+
+</div>
+
+<!-- Editable Command Input -->
+<div class="form-group">
+    <input type="text" id="command_input" class="form-control large-placeholder" placeholder="Command will appear here" autocomplete="off">
+
+</div>
+
+<!-- Output Container -->
+<div class="output-container">
+    <pre id="process_output">Process output will appear here...</pre>
+    <pre id="help_output">Help output will appear here...</pre>
+</div>
+
+
+<div class="footer-buttons">
+    <button id="downloadButton">Download Output</button> <!-- Download Button added here -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+let countdownInterval;
+const ROTATION_INTERVAL = 50;
+let proxyEnabled = false;
+
+// Fetch and display the current IP
+async function updateIpDisplay() {
+    try {
+        console.log('Calling /get_ip API...');
+        const response = await fetch('/get_ip'); // Call the backend
+        const data = await response.json(); // Parse the JSON response
+        console.log('API Response:', data);
+
+        const ipElement = document.getElementById('currentIp');
+        const statusElement = document.getElementById('proxyStatus');
+        const indicator = document.querySelector('.status-indicator');
+
+        if (data.status === 'success') {
+            if (data.proxy && data.proxy_server) {
+                ipElement.textContent = `Current IP: ${data.ip}`;
+                statusElement.textContent = `Status: Protected via ${data.proxy_server}`;
+                ipElement.style.color = '#2ecc71';
+                statusElement.style.color = '#2ecc71';
+                indicator.classList.add('active');
+            } else {
+                ipElement.textContent = `Current IP: ${data.ip}`;
+                statusElement.textContent = 'Status: Direct Connection';
+                ipElement.style.color = '#e74c3c';
+                statusElement.style.color = '#e74c3c';
+                indicator.classList.remove('active');
+            }
+        } else {
+            throw new Error(data.message || 'Failed to fetch IP');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('currentIp').textContent = 'Error fetching IP';
+        document.getElementById('proxyStatus').textContent = 'Status: Connection Error';
+    }
+}
+
+
+async function startProxyServer() {
+    try {
+        const response = await fetch('/startProxyServer', { method: 'POST' });
+        const data = await response.json();
+        if (data.status === 'success') {
+            document.getElementById('startProxyServer').disabled = true;
+            document.getElementById('stopProxyServer').disabled = false;
+            await updateIpDisplay(); // Refresh the IP display after starting the server
+        } else {
+            alert(data.message || 'Failed to start proxy server');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to start proxy server');
+    }
+}
+
+async function stopProxyServer() {
+    try {
+        const response = await fetch('/stopProxyServer', { method: 'POST' });
+        const data = await response.json();
+        if (data.status === 'success') {
+            document.getElementById('startProxyServer').disabled = false;
+            document.getElementById('stopProxyServer').disabled = true;
+            document.querySelector('.status-indicator').classList.remove('active');
+            document.getElementById('currentIp').textContent = 'Proxy Disabled';
+            document.getElementById('proxyStatus').textContent = 'Status: Not Connected';
+        } else {
+            alert(data.message || 'Failed to stop proxy server');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to stop proxy server');
+    }
+}
+
+// Initialize the frontend
+updateIpDisplay();
+setInterval(updateIpDisplay, 5000); // Periodically refresh the IP display
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+let scanInProgress = false;
+
+// Tool Installation
+document.getElementById("install_button").addEventListener("click", () => {
+    const tool = document.getElementById("tool_install").value;
+
+    if (!tool) {
+        alert("Please select a tool to install.");
+        return;
+    }
+
+    fetch("/install_tool", {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: new URLSearchParams({ 'tool': tool })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "success") {
+            alert(`Tool installed successfully:\n${data.output}`);
+        } else {
+            alert(`Error installing tool:\n${data.message}`);
+        }
+    })
+    .catch(error => console.error("Error installing tool:", error));
+});
+
+
+
+// Populate Tool Selection Dropdown Based on Scan Type
+document.getElementById("scan_type").addEventListener("change", () => {
+    const scanType = document.getElementById("scan_type").value;
+    const toolSelect = document.getElementById("tool_select");
+
+    toolSelect.innerHTML = '<option value="">-- Select a Tool --</option>';
+
+    switch (scanType) {
+        
+        case "Dark_nod3_tools":
+            toolSelect.innerHTML = `
+                <option value="special_subdomain_scan">Special Subdomain Scan</option>
+                <option value="Broken_Link_Checker">Broken Link Checker</option>
+                <option value="masscan">Masscan</option>
+                <option value="ping">Ping</option>
+            `;
+            break;
+        case "recon_scan":
+            toolSelect.innerHTML = `
+                <option value="nmap">Nmap</option>
+                <option value="masscan">Masscan</option>
+                <option value="ping">Ping</option>
+                <option value="theharvester">TheHarvester</option>
+                <option value="reconng">Recon-ng</option>
+                <option value="spiderfoot">SpiderFoot</option>
+                <option value="metagoofil">Metagoofil</option>
+                <option value="shodan">Shodan</option>
+                <option value="censys">Censys</option>
+                <option value="dnsenum">DNSenum</option>
+                <option value="wafw00f">Wafw00f</option>
+                <option value="whatweb">WhatWeb</option>
+            `;
+            break;
+        case "allinone_scan":
+            toolSelect.innerHTML = `
+                
+                <option value="new_bash1">New Bash 1</option>
+                <option value="new_bash2">New Bash 2</option>
+                <option value="new_bash3">New Bash 3</option>
+                <option value="new_bash4">New Bash 4</option>
+                <option value="new_bash5">New Bash 5</option>
+                <option value="new_bash6">New Bash 6</option>
+                <option value="new_bash7">New Bash 7</option>
+                <option value="new_bash8">New Bash 8</option>
+                <option value="nuclei">Nuclei</option>
+                <option value="nikto">Nikto</option>
+                <option value="arachni">Arachni</option>
+                <option value="wapiti">Wapiti</option>
+                <option value="openvas">OpenVAS</option>
+                <option value="zap">OWASP ZAP</option>
+                <option value="acunetix">Acunetix</option>
+                <option value="burpsuite">Burp Suite</option>
+            `;
+            break;
+        case "dorks_scan":
+            toolSelect.innerHTML = `
+                <option value="googledorks">Google Dorks</option>
+                <option value="ghdb">GHDB</option>
+                <option value="gospider">GoSpider</option>
+                <option value="githubdorks">GitHub Dorks</option>
+                <option value="pagodo">Pagodo</option>
+                <option value="snitch">Snitch</option>
+                <option value="gitgraber">GitGraber</option>
+            `;
+            break;
+        case "subdomain_scan":
+            toolSelect.innerHTML = `
+                <option value="amass">Amass</option>
+                <option value="subfinder">Subfinder</option>
+                <option value="assetfinder">Assetfinder</option>
+                <option value="findomain">Findomain</option>
+                <option value="massdns">MassDNS</option>
+                <option value="knockpy">Knockpy</option>
+                <option value="altdns">AltDNS</option>
+                <option value="shuffledns">ShuffleDNS</option>
+                <option value="sudomy">Sudomy</option>
+                <option value="chaos">Chaos</option>
+            `;
+            break;
+        case "vuln_scan":
+            toolSelect.innerHTML = `
+                <option value="nuclei">Nuclei</option>
+                <option value="nikto">Nikto</option>
+                <option value="wapiti">Wapiti</option>
+                <option value="arachni">Arachni</option>
+                <option value="openvas">OpenVAS</option>
+                <option value="acunetix">Acunetix</option>
+                <option value="nessus">Nessus</option>
+                <option value="nexpose">Nexpose</option>
+                <option value="qualys">Qualys</option>
+            `;
+            break;
+        case "xss_scan":
+            toolSelect.innerHTML = `
+                <option value="xsstrike">XSStrike</option>
+                <option value="dalfox">DalFox</option>
+                <option value="brutexss">BruteXSS</option>
+                <option value="kxss">KXSS</option>
+                <option value="xsshunter">XSSHunter</option>
+                <option value="findom-xss">Findom-XSS</option>
+                <option value="xspear">XSpear</option>
+                <option value="axiom">Axiom</option>
+            `;
+            break;
+        case "sql_scan":
+            toolSelect.innerHTML = `
+                <option value="sqlmap">SQLMap</option>
+                <option value="nosqlmap">NoSQLMap</option>
+                <option value="bbqsql">BBQSQL</option>
+                <option value="jsql">jSQL Injection</option>
+                <option value="mssqlproxy">MSSQLProxy</option>
+                <option value="sqlninja">SQLNinja</option>
+                <option value="powerupSQL">PowerUpSQL</option>
+                <option value="sqlbrute">SQLBrute</option>
+            `;
+            break;
+        case "files_scan":
+            toolSelect.innerHTML = `
+                <option value="gobuster">Gobuster</option>
+                <option value="dirsearch">Dirsearch</option>
+                <option value="ffuf">FFUF</option>
+                <option value="wfuzz">Wfuzz</option>
+                <option value="feroxbuster">Feroxbuster</option>
+                <option value="dirb">Dirb</option>
+                <option value="rustbuster">RustBuster</option>
+                <option value="dirbuster">DirBuster</option>
+            `;
+            break;
+        case "file_upload_scan":
+            toolSelect.innerHTML = `
+                <option value="burp_upload_scanner">Burp Upload Scanner</option>
+                <option value="upload_exploiter">Upload Exploiter</option>
+                <option value="fuxploider">Fuxploider</option>
+                <option value="nmap_upload_script">Nmap Upload Script</option>
+                <option value="metasploit_upload">Metasploit Upload</option>
+                <option value="uploadscanner">Upload Scanner</option>
+                <option value="multipart_scanner">Multipart Scanner</option>
+                <option value="putterpwnr">PutterPwnr</option>
+            `;
+            break;
+        case "csrf_scan":
+            toolSelect.innerHTML = `
+                <option value="burp_csrf_poc">Burp CSRF PoC</option>
+                <option value="zap_csrf_scan">ZAP CSRF Scan</option>
+                <option value="xsstrike_csrf">XSSStrike CSRF</option>
+                <option value="owasp_csrf_tester">OWASP CSRF Tester</option>
+                <option value="csrfpocmaker">CSRF PoC Maker</option>
+                <option value="csrf_scanner">CSRF Scanner</option>
+                <option value="csrftester">CSRFTester</option>
+                <option value="breacher">Breacher</option>
+            `;
+            break;
+        case "open_redirect_scan":
+            toolSelect.innerHTML = `
+                <option value="kxss">KXSS</option>
+                <option value="open_redirect_scanner">Open Redirect Scanner</option>
+                <option value="burp_redirect">Burp Redirect Extension</option>
+                <option value="nuclei_redirect">Nuclei Redirect</option>
+                <option value="oralyzer">Oralyzer</option>
+                <option value="redirexer">Redirexer</option>
+                <option value="dom_redirect">DOM Redirect Scanner</option>
+                <option value="urlredirect_scanner">URL Redirect Scanner</option>
+            `;
+            break;
+        case "idor_scan":
+            toolSelect.innerHTML = `
+                <option value="autorize">Autorize</option>
+                <option value="arjun">Arjun</option>
+                <option value="burp_idor">Burp IDOR Scanner</option>
+                <option value="postman_idor">Postman IDOR</option>
+                <option value="idor_hunter">IDOR Hunter</option>
+                <option value="idfinder">IDFinder</option>
+                <option value="authz">Authz</option>
+                <option value="autorize_automated">Autorize Automated</option>
+            `;
+            break;
+        case "race_condition_scan":
+            toolSelect.innerHTML = `
+                <option value="race_the_web">Race The Web</option>
+                <option value="turbo_intruder">Turbo Intruder</option>
+                <option value="concurrent_request_tester">Concurrent Request Tester</option>
+                <option value="wrath">Wrath</option>
+                <option value="racepwtotal">RacePWTotal</option>
+                <option value="race_condition_exploit">Race Condition Exploit</option>
+                <option value="racer">Racer</option>
+                <option value="racefuzz">RaceFuzz</option>
+            `;
+            break;
+        case "server_misconfig_scan":
+            toolSelect.innerHTML = `
+                <option value="nikto">Nikto</option>
+                <option value="nmap_vuln">Nmap Vuln</option>
+                <option value="testssl">TestSSL</option>
+                <option value="wapiti">Wapiti</option>
+                <option value="lynis">Lynis</option>
+                <option value="configaudit">ConfigAudit</option>
+                <option value="prowler">Prowler</option>
+                <option value="scout">Scout</option>
+            `;
+            break;
+        case "security_header_scan":
+            toolSelect.innerHTML = `
+                <option value="curl_headers">CURL Headers</option>
+                <option value="nmap_headers">Nmap Headers</option>
+                <option value="hardenize">Hardenize</option>
+                <option value="mozilla_observatory">Mozilla Observatory</option>
+                <option value="shcheck">SHCheck</option>
+                <option value="headercheck">HeaderCheck</option>
+                <option value="securityheaders">SecurityHeaders</option>
+                <option value="header_scanner">Header Scanner</option>
+            `;
+            break;
+        case "broken_auth_scan":
+            toolSelect.innerHTML = `
+                <option value="jwt_tool">JWT Tool</option>
+                <option value="burp_jwt_cracker">Burp JWT Cracker</option>
+                <option value="authmatrix">AuthMatrix</option>
+                <option value="hydra">Hydra</option>
+                <option value="patator">Patator</option>
+                <option value="medusa">Medusa</option>
+                <option value="crowbar">Crowbar</option>
+                <option value="auth_analyzer">Auth Analyzer</option>
+            `;
+            break;
+        case "api_security_scan":
+            toolSelect.innerHTML = `
+                <option value="astra">Astra</option>
+                <option value="arjun">Arjun API</option>
+                <option value="imperva">Imperva API Security</option>
+                <option value="dredd">Dredd</option>
+                <option value="owasp_zap_api">OWASP ZAP API</option>
+                <option value="taurus">Taurus</option>
+                <option value="gotestwaf">GoTestWAF</option>
+            `;
+            break;
+    }
+});
+
+// Fetch the actual command from the backend when the tool is selected
+let savedCommand = "";
+
+// Fetch the actual command from the backend when the tool is selected
+document.getElementById("tool_select").addEventListener("change", async () => {
+    const scanType = document.getElementById("scan_type").value;
+    const toolName = document.getElementById("tool_select").value;
+    const targetUrl = document.getElementById("target_url").value;
+
+    // Validate input
+    if (!scanType || !toolName || !targetUrl) {
+        document.getElementById("command_input").value = "Please select scan type, tool, and enter target URL.";
+        return;
+    }
+
+    // Show loading indicator
+    document.getElementById("command_input").value = "Fetching command, please wait...";
+
+    // Prepare form data
+    const formData = new URLSearchParams({
+        'scan_type': scanType,
+        'tool_name': toolName,
+        'target_url': targetUrl
+    });
+
+    try {
+        // Fetch command from the backend
+        const response = await fetch("/get_command", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: formData
+        });
+
+        const data = await response.json();
+
+        // Update the command input field
+        if (data.status === "success") {
+            document.getElementById("command_input").value = data.command;
+            savedCommand = data.command; // Save the fetched command
+        } else {
+            document.getElementById("command_input").value = `Error: ${data.message}`;
+        }
+    } catch (error) {
+        console.error("Error fetching command:", error);
+        document.getElementById("command_input").value = "Failed to fetch command. Please try again.";
+    }
+});
+
+// Save Edited Command
+document.getElementById("command_input").addEventListener("input", (event) => {
+    savedCommand = event.target.value; // Update saved command with user edits
+});
+
+// Start the Scan with the Edited Command
+document.getElementById("startButton").addEventListener("click", () => {
+    if (!savedCommand) {
+        alert("Please generate or edit the command before running the scan.");
+        return;
+    }
+
+    fetch("/start_scan", {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: new URLSearchParams({ 'command_input': savedCommand })
+    })
+    .then(() => {
+        document.getElementById("startButton").style.display = "none";
+        document.getElementById("stopButton").style.display = "block";
+        streamOutput();
+    })
+    .catch(error => {
+        console.error("Error starting scan:", error);
+        alert("Failed to start scan.");
+    });
+});
+
+
+
+
+
+
+
+
+// Real-time Output Streaming
+let outputInterval;
+
+function streamOutput() {
+    fetch("/get_output")
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("process_output").textContent = data.output;
+        document.getElementById("process_output").scrollTop = document.getElementById("process_output").scrollHeight;
+
+        // Check if the scan is still in progress
+        if (data.scan_in_progress) {
+            // Continue fetching the output
+            outputInterval = setTimeout(streamOutput, 500); // Poll every 500ms
+        } else {
+            // Stop polling when the scan is complete
+            console.log("Scan complete. Stopping output fetch.");
+            clearTimeout(outputInterval);
+        }
+    })
+    .catch(error => console.error("Error fetching output:", error));
+}
+
+
+// Stop the scan
+document.getElementById("stopButton").addEventListener("click", () => {
+    fetch("/stop_scan", { method: "POST" })
+    .then(() => {
+        scanInProgress = false;
+        document.getElementById("startButton").style.display = "block";
+        document.getElementById("stopButton").style.display = "none";
+    });
+});
+
+// Fetch help output for the selected tool
+document.getElementById("tool_select").addEventListener("change", () => {
+    const toolName = document.getElementById("tool_select").value;
+
+    if (!toolName) {
+        document.getElementById("help_output").textContent = "Help output will appear here...";
+        return;
+    }
+
+    fetch(`/get_help_output?tool=${toolName}`)
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "success") {
+            document.getElementById("help_output").textContent = data.output;
+        } else {
+            document.getElementById("help_output").textContent = `Error: ${data.message}`;
+        }
+    });
+});
+
+
+document.getElementById("resetButton").addEventListener("click", () => {
+    fetch("/reset_scan", { method: "POST" })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "success") {
+            scanInProgress = false; // Reset the flag
+            document.getElementById("startButton").style.display = "block";
+            document.getElementById("stopButton").style.display = "none";
+            document.getElementById("target_url").value = "";
+            document.getElementById("scan_type").value = "";
+            document.getElementById("tool_select").value = "";
+            document.getElementById("command_input").value = "";
+            document.getElementById("process_output").textContent = "Process output will appear here...";
+        } else {
+            alert(data.message);
+        }
+    });
+});
+
+
+
+// Download Button Functionality
+document.getElementById("downloadButton").addEventListener("click", () => {
+    const targetUrl = document.getElementById("target_url").value || "output";
+    const scanType = document.getElementById("scan_type").value || "scan";
+    window.location.href = `/download?target=${targetUrl}_${scanType}`;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+// Generate a unique tab ID
+const tabId = Date.now(); // Unique identifier based on timestamp
+sessionStorage.setItem('tabId', tabId); // Save in sessionStorage
+console.log("Tab ID:", tabId);
+
+// Start a task for this tab
+function startTask() {
+    fetch('/start_task', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tabId }) // Send tabId to backend
+    })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.message);
+            if (data.status === "success") {
+                pollTaskStatus(); // Start polling task status
+            }
+        })
+        .catch(error => console.error("Error starting task:", error));
+}
+
+// Poll the task status
+function pollTaskStatus() {
+    fetch(`/get_status?tabId=${tabId}`) // Fetch status using tabId
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                console.log(`Progress for Tab ${tabId}: ${data.task.progress}%`);
+                if (data.task.status !== "completed") {
+                    setTimeout(pollTaskStatus, 1000); // Continue polling until complete
+                } else {
+                    console.log(`Task completed for Tab ${tabId}`);
+                }
+            } else {
+                console.error("Error fetching status:", data.message);
+            }
+        })
+        .catch(error => console.error("Error polling task status:", error));
+}
+
+// Start the task when the user clicks a button
+document.getElementById('startButton').addEventListener('click', startTask);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

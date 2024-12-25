@@ -1,0 +1,32 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8877
+ * Running on http://192.168.0.199:8877
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-097-724
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8877
+ * Running on http://192.168.0.199:8877
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-097-724
+INFO:werkzeug:192.168.0.228 - - [13/Nov/2024 07:38:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.228 - - [13/Nov/2024 07:38:16] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.228 - - [13/Nov/2024 07:38:23] "POST /start_scan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.228 - - [13/Nov/2024 07:38:23] "GET /get_output HTTP/1.1" 200 -
+INFO:root:PING examlover.com (93.127.173.28) 56(84) bytes of data.
+INFO:root:64 bytes from 93.127.173.28: icmp_seq=1 ttl=54 time=37.9 ms
+INFO:root:64 bytes from 93.127.173.28: icmp_seq=2 ttl=54 time=37.7 ms
+INFO:root:64 bytes from 93.127.173.28: icmp_seq=3 ttl=54 time=37.4 ms
+INFO:root:64 bytes from 93.127.173.28: icmp_seq=4 ttl=54 time=37.4 ms
+INFO:root:
+INFO:root:--- examlover.com ping statistics ---
+INFO:root:4 packets transmitted, 4 received, 0% packet loss, time 3002ms
+INFO:root:rtt min/avg/max/mdev = 37.367/37.578/37.875/0.212 ms
+INFO:werkzeug: * Detected change in '/home/kali/darknod3_tool/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat

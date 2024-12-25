@@ -1,0 +1,421 @@
+inurl:"api/v1" -github.com
+inurl:"swagger.json" -github.com
+inurl:"/graphql" -github.com
+inurl:"/api-docs" -github.com
+inurl:"/api/v2" -github.com
+inurl:"/api/v3" -github.com
+
+# Category: Sensitive Information
+intext:"-----BEGIN PRIVATE KEY-----" -github.com
+intext:"client_secret" -github.com
+intext:"password" filetype:env -github.com
+intext:"apikey" filetype:env -github.com
+intext:"username" filetype:env -github.com
+intext:"jdbc.password" -github.com
+intext:"oauth.token" -github.com
+
+# Category: Download.php Files
+inurl:download.php?file=
+intitle:"Index of /" inurl:download.php
+intitle:"Download" inurl:download.php
+intitle:"Download File" inurl:download.php
+intitle:"File Download" inurl:download.php
+intitle:"Download Page" inurl:download.php
+intitle:"Download Link" inurl:download.php
+intitle:"Download Resource" inurl:download.php
+intitle:"Download Center" inurl:download.php
+intitle:"Download Manager" inurl:download.php
+intitle:"Download Script" inurl:download.php
+intitle:"File URL" inurl:download.php
+intitle:"File Path" inurl:download.php
+intitle:"Direct Download" inurl:download.php
+intitle:"Downloadable File" inurl:download.php
+intitle:"File Repository" inurl:download.php
+intitle:"File Hosting" inurl:download.php
+intitle:"File Distribution" inurl:download.php
+intitle:"Downloadable Resource" inurl:download.php
+
+# Category: Download.php Files with Parameter Names
+inurl:download.php?file=
+inurl:download.php?name=
+inurl:download.php?filename=
+inurl:download.php?download=
+inurl:download.php?file_id=
+inurl:download.php?file_name=
+inurl:download.php?filepath=
+inurl:download.php?resource=
+inurl:download.php?item=
+inurl:download.php?attachment=
+inurl:download.php?doc=
+inurl:download.php?type=
+inurl:download.php?link=
+inurl:download.php?url=
+inurl:download.php?target=
+inurl:download.php?source=
+inurl:download.php?content=
+inurl:download.php?document=
+inurl:download.php?data=
+inurl:download.php?product=
+inurl:download.php?code=
+inurl:download.php?key=
+inurl:download.php?source_file=
+inurl:download.php?output=
+inurl:download.php?resource_path=
+inurl:download.php?target_file=
+inurl:download.php?resource_url=
+inurl:download.php?file_path=
+inurl:download.php?file_url=
+inurl:download.php?attachment_id=
+inurl:download.php?file_location=
+inurl:download.php?file_path=
+
+# Category: Download.php Files with Different URL Structures
+inurl:"/downloads/download.php?file="
+inurl:"/files/download.php?name="
+inurl:"/file/download.php?filename="
+inurl:"/dl/download.php?file="
+inurl:"/dl/download.php?name="
+inurl:"/dl/download.php?filename="
+inurl:"/getfile/download.php?file="
+inurl:"/getfile/download.php?name="
+inurl:"/getfile/download.php?filename="
+inurl:"/download-files/download.php?file="
+inurl:"/download-files/download.php?name="
+inurl:"/download-files/download.php?filename="
+inurl:"/download-resource/download.php?file="
+inurl:"/download-resource/download.php?name="
+inurl:"/download-resource/download.php?filename="
+inurl:"/file-download/download.php?file="
+inurl:"/file-download/download.php?name="
+inurl:"/file-download/download.php?filename="
+inurl:"/content-download/download.php?file="
+inurl:"/content-download/download.php?name="
+inurl:"/content-download/download.php?filename="
+inurl:"/resource-download/download.php?file="
+inurl:"/resource-download/download.php?name="
+inurl:"/resource-download/download.php?filename="
+inurl:"/download-link/download.php?url="
+inurl:"/download-link/download.php?link="
+inurl:"/download-link/download.php?source="
+inurl:"/download-link/download.php?content="
+inurl:"/download-link/download.php?document="
+
+# Category: Backup Files
+intitle:"index of" "backup" -github.com
+intitle:"index of" "backups" -github.com
+inurl:"/backup/" -github.com
+inurl:"/backup" -github.com
+intext:"backup.sql" -github.com
+intext:"backup.zip" -github.com
+inurl:"/backup" filetype:zip -github.com
+
+# Category: Login Pages
+intitle:"Login" inurl:"admin" -github.com
+intitle:"Sign In" inurl:"admin" -github.com
+intitle:"Member Login" -github.com
+intitle:"User Login" -github.com
+intitle:"Staff Login" -github.com
+
+# SQL Injection Vulnerabilities
+inurl:index.php?id=
+inurl:article.php?id=
+inurl:gallery.php?id=
+inurl:news.php?id=
+inurl:product.php?id=
+inurl:category.php?id=
+inurl:content.php?id=
+inurl:download.php?id=
+inurl:profile.php?id=
+inurl:shop.php?id=
+inurl:show.php?id=
+inurl:item.php?id=
+inurl:review.php?id=
+inurl:read.php?id=
+inurl:faq.php?id=
+inurl:search.php?id=
+inurl:archive.php?id=
+inurl:event.php?id=
+inurl:calendar.php?id=
+inurl:login.php?id=
+inurl:register.php?id=
+inurl:checkout.php?id=
+inurl:confirm.php?id=
+inurl:process.php?id=
+
+# SQLi Error Messages
+filetype:php intext:"SQL syntax"
+filetype:asp inurl:"id=" intext:"OleDbException"
+filetype:log intext:"You have an error in your SQL syntax"
+
+# SQLi Vulnerable URLs
+inurl:".php?param="
+inurl:".php?id="
+inurl:"page.php?id="
+inurl:"product-detail.php?id="
+inurl:"viewitem.php?id="
+inurl:"news_detail.php?id="
+inurl:"post.php?id="
+inurl:"event.php?id="
+inurl:"category.php?id="
+inurl:"download.php?id="
+inurl:"content.php?id="
+
+# SQLi Vulnerable Parameters
+inurl:"index.php?id="
+inurl:"gallery.php?id="
+inurl:"news.php?id="
+inurl:"product.php?id="
+inurl:"category.php?id="
+inurl:"content.php?id="
+inurl:"download.php?id="
+inurl:"profile.php?id="
+inurl:"shop.php?id="
+inurl:"show.php?id="
+inurl:"item.php?id="
+inurl:"review.php?id="
+inurl:"read.php?id="
+inurl:"faq.php?id="
+inurl:"search.php?id="
+inurl:"archive.php?id="
+inurl:"event.php?id="
+inurl:"calendar.php?id="
+inurl:"login.php?id="
+inurl:"register.php?id="
+inurl:"checkout.php?id="
+inurl:"confirm.php?id="
+inurl:"process.php?id="
+
+# SQLi Vulnerable Parameters in Query String
+inurl:*.php?*
+inurl:*.asp?*
+inurl:*.aspx?*
+inurl:*.jsp?*
+
+# SQLi Error-Based Messages
+filetype:asp "OleDbException"
+filetype:log "SQL syntax"
+filetype:txt "SQL syntax error"
+
+# SQLi Union-Based Messages
+filetype:txt "union select"
+filetype:log "union select"
+
+# SQLi Error Messages with Database Information
+filetype:txt "mysqli_num_rows()"
+filetype:log "mysql_fetch_array()"
+
+# SQLi Order By Statements
+filetype:txt "ORDER BY"
+filetype:log "ORDER BY"
+
+# SQLi Vulnerable Websites
+inurl:".php?category_id="
+inurl:".php?product_id="
+inurl:".php?article_id="
+inurl:".php?post_id="
+inurl:".php?event_id="
+inurl:".php?calendar_id="
+inurl:".php?news_id="
+inurl:".php?item_id="
+
+# SQLi Vulnerable Parameters with Error Messages
+inurl:".php?id="
+intext:"You have an error in your SQL syntax near"
+intext:"SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near"
+intext:"query failed: ERROR: parser: parse error"
+
+# SQLi Vulnerable Login Pages
+inurl:"login.php?username="
+inurl:"login.aspx?user="
+inurl:"signin.php?user="
+inurl:"auth.php?user="
+inurl:"signin.asp?user="
+inurl:"login.jsp?user="
+
+# SQLi Vulnerable Search Pages
+inurl:"search.php?query="
+inurl:"search.aspx?keyword="
+inurl:"search.asp?q="
+inurl:"search.jsp?query="
+
+# SQLi Vulnerable User Profile Pages
+inurl:"profile.php?user_id="
+inurl:"profile.aspx?userid="
+inurl:"user.php?id="
+inurl:"user.aspx?user_id="
+
+# SQLi Vulnerable Product Pages
+inurl:"product.php?pid="
+inurl:"product.aspx?id="
+inurl:"item.php?item_id="
+inurl:"item.aspx?prodid="
+
+# SQLi Vulnerable Forum Pages
+inurl:"forum.php?topic="
+inurl:"forum.aspx?topic_id="
+inurl:"thread.php?tid="
+inurl:"thread.aspx?threadid="
+
+# SQLi Vulnerable News Pages
+inurl:"news.php?nid="
+inurl:"news.aspx?newsid="
+inurl:"article.php?article_id="
+inurl:"article.aspx?id="
+
+# SQLi Vulnerable Category Pages
+inurl:"category.php?cat_id="
+inurl:"category.aspx?id="
+
+# SQLi Vulnerable Blog Pages
+inurl:"blog.php?post_id="
+inurl:"blog.aspx?id="
+
+# SQLi Vulnerable Register Pages
+inurl:"register.php?user="
+inurl:"register.aspx?username="
+inurl:"signup.php?username="
+
+# SQLi Vulnerable Forgot Password Pages
+inurl:"forgot_password.php?email="
+inurl:"forgotpassword.aspx?email="
+
+# SQLi Vulnerable Contact Pages
+inurl:"contact.php?name="
+inurl:"contact.aspx?fullname="
+
+# SQLi Vulnerable Feedback Pages
+inurl:"feedback.php?message="
+inurl:"feedback.aspx?msg="
+
+# SQLi Vulnerable Survey Pages
+inurl:"survey.php?survey_id="
+inurl:"survey.aspx?id="
+
+# SQLi Vulnerable Poll Pages
+inurl:"poll.php?id="
+inurl:"poll.aspx?pollid="
+
+# SQLi Vulnerable Comments Pages
+inurl:"comments.php?post_id="
+inurl:"comments.aspx?postid="
+
+# SQLi Vulnerable CMS Pages
+inurl:"cms.php?page_id="
+inurl:"cms.aspx?id="
+
+# SQLi Vulnerable E-commerce Pages
+inurl:"checkout.php?order_id="
+
+# Category: Cross-Site Scripting (XSS)
+inurl:/search?query=<script>alert('XSS')</script>
+inurl:/login?username=<script>alert('XSS')</script>
+inurl:/signin?email=<script>alert('XSS')</script>
+inurl:/register?fullname=<script>alert('XSS')</script>
+inurl:/contact?message=<script>alert('XSS')</script>
+inurl:/comment?text=<script>alert('XSS')</script>
+inurl:/feedback?subject=<script>alert('XSS')</script>
+inurl:/guestbook?message=<script>alert('XSS')</script>
+inurl:/feedback?comment=<script>alert('XSS')</script>
+inurl:/post?body=<script>alert('XSS')</script>
+inurl:/search?q=<script>alert('XSS')</script>
+inurl:/profile?username=<script>alert('XSS')</script>
+inurl:/user?name=<script>alert('XSS')</script>
+inurl:/about?content=<script>alert('XSS')</script>
+inurl:/portfolio?project=<script>alert('XSS')</script>
+inurl:/testimonial?feedback=<script>alert('XSS')</script>
+
+# Category: XSS in JavaScript Files
+filetype:js "<script>alert('XSS')</script>"
+filetype:js "document.write('<script>alert('XSS')</script>')"
+filetype:js "window.location.href='javascript:alert('XSS')'"
+filetype:js "eval('<script>alert('XSS')</script>')"
+
+# Category: XSS in HTML Files
+filetype:html "<script>alert('XSS')</script>"
+filetype:html "onload=alert('XSS')"
+filetype:html "onclick=alert('XSS')"
+filetype:html "onmouseover=alert('XSS')"
+
+# Category: XSS in URL Parameters
+inurl:/page?name=<script>alert('XSS')</script>
+inurl:/search?query=<script>alert('XSS')</script>
+inurl:/profile?id=<script>alert('XSS')</script>
+inurl:/article?title=<script>alert('XSS')</script>
+inurl:/post?id=<script>alert('XSS')</script>
+inurl:/search?query=<script>alert('XSS')</script>
+inurl:/view?item=<script>alert('XSS')</script>
+inurl:/category?name=<script>alert('XSS')</script>
+
+# Category: XSS in Form Fields
+intext:"<form action" "<input type='text' onfocus='alert('XSS')'>"
+intext:"<form action" "<textarea onfocus='alert('XSS')'></textarea>"
+intext:"<form action" "<input type='password' onfocus='alert('XSS')'>"
+intext:"<form action" "<input type='email' onfocus='alert('XSS')'>"
+intext:"<form action" "<input type='url' onfocus='alert('XSS')'>"
+intext:"<form action" "<input type='tel' onfocus='alert('XSS')'>"
+intext:"<form action" "<input type='number' onfocus='alert('XSS')'>"
+
+# Category: XSS in Event Handlers
+intext:"<button onclick='alert('XSS')'>Click Me</button>"
+intext:"<a href='#' onclick='alert('XSS')'>Click Here</a>"
+intext:"<div onmouseover='alert('XSS')'>Hover Me</div>"
+intext:"<img src='x' onerror='alert('XSS')'>"
+intext:"<input type='text' onblur='alert('XSS')'>"
+intext:"<select onchange='alert('XSS')'><option>Select</option></select>"
+
+# Category: Exposed Documents
+filetype:doc OR filetype:docx OR filetype:ppt OR filetype:pptx OR filetype:xls OR filetype:xlsx OR filetype:pdf -github.com
+
+# Category: Exposed Source Code
+inurl:"/src/" -github.com
+inurl:"/source/" -github.com
+inurl:"/code/" -github.com
+inurl:"/src/" language:python -github.com
+inurl:"/src/" language:java -github.com
+inurl:"/src/" language:javascript -github.com
+
+# Category: Wordpress Configuration Files
+filetype:php intext:"DB_PASSWORD" -github.com
+filetype:php intext:"DB_HOST" -github.com
+filetype:php intext:"DB_USER" -github.com
+filetype:php intext:"DB_NAME" -github.com
+
+# Category: Open Directory Listings
+intitle:"Index of /" + "backup" -github.com
+intitle:"Index of /" + "uploads" -github.com
+intitle:"Index of /" + "confidential" -github.com
+
+# Category: Exposed Private Keys
+filetype:txt "private_key" -github.com
+filetype:txt "private.key" -github.com
+filetype:txt "private_key.pem" -github.com
+filetype:txt "private_key.txt" -github.com
+
+# Category: Sensitive Files
+filetype:log inurl:"access.log" -github.com
+filetype:log inurl:"error.log" -github.com
+filetype:log inurl:"debug.log" -github.com
+filetype:log inurl:"application.log" -github.com
+
+# Category: Open Redirect Vulnerabilities
+inurl:"redirect?to=" -github.com
+inurl:"out?url=" -github.com
+inurl:"link?url=" -github.com
+inurl:"/go?url=" -github.com
+inurl:"/out?url=" -github.com
+
+# Category: Git Repository Files
+filetype:gitweb inurl:"/?a=summary" -github.com
+filetype:git inurl:".gitignore" -github.com
+filetype:git inurl:"config" -github.com
+filetype:git inurl:"HEAD" -github.com
+filetype:git inurl:"index" -github.com
+filetype:git inurl:"packed-refs" -github.com
+filetype:git inurl:"hooks" -github.com
+filetype:git inurl:"info" -github.com
+
+# Category: Network Devices
+intitle:"RouterOS" inurl:"winbox" -github.com
+intitle:"Ubiquiti" intext:"airOS" -github.com
+intitle:"MikroTik" intext:"Webfig" -github.com
+intitle:"Ubiquiti" intext:"Rocket M5" -github.com

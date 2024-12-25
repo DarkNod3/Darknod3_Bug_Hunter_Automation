@@ -1,0 +1,5 @@
+# Dirsearch started Mon Dec 23 07:01:52 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u google.com -e php,html,js
+
+302     0B   https://google.com/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd    -> REDIRECTS TO: https://google.com/etc/passwd
+301   222B   https://google.com/js    -> REDIRECTS TO: https://www.google.com/js
+302     0B   https://google.com/%2e%2e//google.com    -> REDIRECTS TO: https://google.com//google.com

@@ -1,0 +1,46 @@
+/* Ensure both features are on a single line */
+.container {
+    display: flex;
+    justify-content: space-between; /* Align columns with space between */
+    align-items: center; /* Vertically align content in the middle */
+    padding: 10px 0;
+    gap: 20px; /* Add space between the two columns */
+}
+
+/* Flexbox styles for individual feature sections */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for form controls and buttons */
+select, button, input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lime;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Proxy toggle switch style */
+#proxyToggle {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Current IP text style */
+#current_ip {
+    font-size: 14px;
+    color: #0f0;
+    font-weight: bold;
+}
